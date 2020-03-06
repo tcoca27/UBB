@@ -1,0 +1,1651 @@
+Program ID is 1
+---ExeStack--- 
+[(Ref(int) v1;(Ref(int) v2;(Ref(int) v3;(int cnt;(new(v1,2);(new(v2,3);(new(v3,4);(newLatch(cnt,rH(v2));(fork((wH(v1,rH(v1)*10);(print(rH(v1));(countDown(cnt);fork((wH(v2,rH(v2)*10);(print(rH(v2));(countDown(cnt);fork((wH(v3,rH(v3)*10);(print(rH(v3));countDown(cnt))))))))))));(await(cnt);(print(100);(countDown(cnt);print(100)))))))))))))]
+---SymTable--- 
+{}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(Ref(int) v2;(Ref(int) v3;(int cnt;(new(v1,2);(new(v2,3);(new(v3,4);(newLatch(cnt,rH(v2));(fork((wH(v1,rH(v1)*10);(print(rH(v1));(countDown(cnt);fork((wH(v2,rH(v2)*10);(print(rH(v2));(countDown(cnt);fork((wH(v3,rH(v3)*10);(print(rH(v3));countDown(cnt))))))))))));(await(cnt);(print(100);(countDown(cnt);print(100)))))))))))), Ref(int) v1]
+---SymTable--- 
+{}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(Ref(int) v2;(Ref(int) v3;(int cnt;(new(v1,2);(new(v2,3);(new(v3,4);(newLatch(cnt,rH(v2));(fork((wH(v1,rH(v1)*10);(print(rH(v1));(countDown(cnt);fork((wH(v2,rH(v2)*10);(print(rH(v2));(countDown(cnt);fork((wH(v3,rH(v3)*10);(print(rH(v3));countDown(cnt))))))))))));(await(cnt);(print(100);(countDown(cnt);print(100)))))))))))), Ref(int) v1]
+---SymTable--- 
+{}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(Ref(int) v2;(Ref(int) v3;(int cnt;(new(v1,2);(new(v2,3);(new(v3,4);(newLatch(cnt,rH(v2));(fork((wH(v1,rH(v1)*10);(print(rH(v1));(countDown(cnt);fork((wH(v2,rH(v2)*10);(print(rH(v2));(countDown(cnt);fork((wH(v3,rH(v3)*10);(print(rH(v3));countDown(cnt))))))))))));(await(cnt);(print(100);(countDown(cnt);print(100))))))))))))]
+---SymTable--- 
+{v1=(0,int)}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(Ref(int) v2;(Ref(int) v3;(int cnt;(new(v1,2);(new(v2,3);(new(v3,4);(newLatch(cnt,rH(v2));(fork((wH(v1,rH(v1)*10);(print(rH(v1));(countDown(cnt);fork((wH(v2,rH(v2)*10);(print(rH(v2));(countDown(cnt);fork((wH(v3,rH(v3)*10);(print(rH(v3));countDown(cnt))))))))))));(await(cnt);(print(100);(countDown(cnt);print(100))))))))))))]
+---SymTable--- 
+{v1=(0,int)}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(Ref(int) v3;(int cnt;(new(v1,2);(new(v2,3);(new(v3,4);(newLatch(cnt,rH(v2));(fork((wH(v1,rH(v1)*10);(print(rH(v1));(countDown(cnt);fork((wH(v2,rH(v2)*10);(print(rH(v2));(countDown(cnt);fork((wH(v3,rH(v3)*10);(print(rH(v3));countDown(cnt))))))))))));(await(cnt);(print(100);(countDown(cnt);print(100))))))))))), Ref(int) v2]
+---SymTable--- 
+{v1=(0,int)}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(Ref(int) v3;(int cnt;(new(v1,2);(new(v2,3);(new(v3,4);(newLatch(cnt,rH(v2));(fork((wH(v1,rH(v1)*10);(print(rH(v1));(countDown(cnt);fork((wH(v2,rH(v2)*10);(print(rH(v2));(countDown(cnt);fork((wH(v3,rH(v3)*10);(print(rH(v3));countDown(cnt))))))))))));(await(cnt);(print(100);(countDown(cnt);print(100))))))))))), Ref(int) v2]
+---SymTable--- 
+{v1=(0,int)}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(Ref(int) v3;(int cnt;(new(v1,2);(new(v2,3);(new(v3,4);(newLatch(cnt,rH(v2));(fork((wH(v1,rH(v1)*10);(print(rH(v1));(countDown(cnt);fork((wH(v2,rH(v2)*10);(print(rH(v2));(countDown(cnt);fork((wH(v3,rH(v3)*10);(print(rH(v3));countDown(cnt))))))))))));(await(cnt);(print(100);(countDown(cnt);print(100)))))))))))]
+---SymTable--- 
+{v1=(0,int), v2=(0,int)}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(Ref(int) v3;(int cnt;(new(v1,2);(new(v2,3);(new(v3,4);(newLatch(cnt,rH(v2));(fork((wH(v1,rH(v1)*10);(print(rH(v1));(countDown(cnt);fork((wH(v2,rH(v2)*10);(print(rH(v2));(countDown(cnt);fork((wH(v3,rH(v3)*10);(print(rH(v3));countDown(cnt))))))))))));(await(cnt);(print(100);(countDown(cnt);print(100)))))))))))]
+---SymTable--- 
+{v1=(0,int), v2=(0,int)}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(int cnt;(new(v1,2);(new(v2,3);(new(v3,4);(newLatch(cnt,rH(v2));(fork((wH(v1,rH(v1)*10);(print(rH(v1));(countDown(cnt);fork((wH(v2,rH(v2)*10);(print(rH(v2));(countDown(cnt);fork((wH(v3,rH(v3)*10);(print(rH(v3));countDown(cnt))))))))))));(await(cnt);(print(100);(countDown(cnt);print(100)))))))))), Ref(int) v3]
+---SymTable--- 
+{v1=(0,int), v2=(0,int)}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(int cnt;(new(v1,2);(new(v2,3);(new(v3,4);(newLatch(cnt,rH(v2));(fork((wH(v1,rH(v1)*10);(print(rH(v1));(countDown(cnt);fork((wH(v2,rH(v2)*10);(print(rH(v2));(countDown(cnt);fork((wH(v3,rH(v3)*10);(print(rH(v3));countDown(cnt))))))))))));(await(cnt);(print(100);(countDown(cnt);print(100)))))))))), Ref(int) v3]
+---SymTable--- 
+{v1=(0,int), v2=(0,int)}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(int cnt;(new(v1,2);(new(v2,3);(new(v3,4);(newLatch(cnt,rH(v2));(fork((wH(v1,rH(v1)*10);(print(rH(v1));(countDown(cnt);fork((wH(v2,rH(v2)*10);(print(rH(v2));(countDown(cnt);fork((wH(v3,rH(v3)*10);(print(rH(v3));countDown(cnt))))))))))));(await(cnt);(print(100);(countDown(cnt);print(100))))))))))]
+---SymTable--- 
+{v1=(0,int), v2=(0,int), v3=(0,int)}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(int cnt;(new(v1,2);(new(v2,3);(new(v3,4);(newLatch(cnt,rH(v2));(fork((wH(v1,rH(v1)*10);(print(rH(v1));(countDown(cnt);fork((wH(v2,rH(v2)*10);(print(rH(v2));(countDown(cnt);fork((wH(v3,rH(v3)*10);(print(rH(v3));countDown(cnt))))))))))));(await(cnt);(print(100);(countDown(cnt);print(100))))))))))]
+---SymTable--- 
+{v1=(0,int), v2=(0,int), v3=(0,int)}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(new(v1,2);(new(v2,3);(new(v3,4);(newLatch(cnt,rH(v2));(fork((wH(v1,rH(v1)*10);(print(rH(v1));(countDown(cnt);fork((wH(v2,rH(v2)*10);(print(rH(v2));(countDown(cnt);fork((wH(v3,rH(v3)*10);(print(rH(v3));countDown(cnt))))))))))));(await(cnt);(print(100);(countDown(cnt);print(100))))))))), int cnt]
+---SymTable--- 
+{v1=(0,int), v2=(0,int), v3=(0,int)}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(new(v1,2);(new(v2,3);(new(v3,4);(newLatch(cnt,rH(v2));(fork((wH(v1,rH(v1)*10);(print(rH(v1));(countDown(cnt);fork((wH(v2,rH(v2)*10);(print(rH(v2));(countDown(cnt);fork((wH(v3,rH(v3)*10);(print(rH(v3));countDown(cnt))))))))))));(await(cnt);(print(100);(countDown(cnt);print(100))))))))), int cnt]
+---SymTable--- 
+{v1=(0,int), v2=(0,int), v3=(0,int)}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(new(v1,2);(new(v2,3);(new(v3,4);(newLatch(cnt,rH(v2));(fork((wH(v1,rH(v1)*10);(print(rH(v1));(countDown(cnt);fork((wH(v2,rH(v2)*10);(print(rH(v2));(countDown(cnt);fork((wH(v3,rH(v3)*10);(print(rH(v3));countDown(cnt))))))))))));(await(cnt);(print(100);(countDown(cnt);print(100)))))))))]
+---SymTable--- 
+{cnt=0, v1=(0,int), v2=(0,int), v3=(0,int)}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(new(v1,2);(new(v2,3);(new(v3,4);(newLatch(cnt,rH(v2));(fork((wH(v1,rH(v1)*10);(print(rH(v1));(countDown(cnt);fork((wH(v2,rH(v2)*10);(print(rH(v2));(countDown(cnt);fork((wH(v3,rH(v3)*10);(print(rH(v3));countDown(cnt))))))))))));(await(cnt);(print(100);(countDown(cnt);print(100)))))))))]
+---SymTable--- 
+{cnt=0, v1=(0,int), v2=(0,int), v3=(0,int)}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(new(v2,3);(new(v3,4);(newLatch(cnt,rH(v2));(fork((wH(v1,rH(v1)*10);(print(rH(v1));(countDown(cnt);fork((wH(v2,rH(v2)*10);(print(rH(v2));(countDown(cnt);fork((wH(v3,rH(v3)*10);(print(rH(v3));countDown(cnt))))))))))));(await(cnt);(print(100);(countDown(cnt);print(100)))))))), new(v1,2)]
+---SymTable--- 
+{cnt=0, v1=(0,int), v2=(0,int), v3=(0,int)}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(new(v2,3);(new(v3,4);(newLatch(cnt,rH(v2));(fork((wH(v1,rH(v1)*10);(print(rH(v1));(countDown(cnt);fork((wH(v2,rH(v2)*10);(print(rH(v2));(countDown(cnt);fork((wH(v3,rH(v3)*10);(print(rH(v3));countDown(cnt))))))))))));(await(cnt);(print(100);(countDown(cnt);print(100)))))))), new(v1,2)]
+---SymTable--- 
+{cnt=0, v1=(0,int), v2=(0,int), v3=(0,int)}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(new(v2,3);(new(v3,4);(newLatch(cnt,rH(v2));(fork((wH(v1,rH(v1)*10);(print(rH(v1));(countDown(cnt);fork((wH(v2,rH(v2)*10);(print(rH(v2));(countDown(cnt);fork((wH(v3,rH(v3)*10);(print(rH(v3));countDown(cnt))))))))))));(await(cnt);(print(100);(countDown(cnt);print(100))))))))]
+---SymTable--- 
+{cnt=0, v1=(1,int), v2=(0,int), v3=(0,int)}
+---OutList--- 
+[]
+---Heap---- 
+{1=2}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(new(v2,3);(new(v3,4);(newLatch(cnt,rH(v2));(fork((wH(v1,rH(v1)*10);(print(rH(v1));(countDown(cnt);fork((wH(v2,rH(v2)*10);(print(rH(v2));(countDown(cnt);fork((wH(v3,rH(v3)*10);(print(rH(v3));countDown(cnt))))))))))));(await(cnt);(print(100);(countDown(cnt);print(100))))))))]
+---SymTable--- 
+{cnt=0, v1=(1,int), v2=(0,int), v3=(0,int)}
+---OutList--- 
+[]
+---Heap---- 
+{1=2}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(new(v3,4);(newLatch(cnt,rH(v2));(fork((wH(v1,rH(v1)*10);(print(rH(v1));(countDown(cnt);fork((wH(v2,rH(v2)*10);(print(rH(v2));(countDown(cnt);fork((wH(v3,rH(v3)*10);(print(rH(v3));countDown(cnt))))))))))));(await(cnt);(print(100);(countDown(cnt);print(100))))))), new(v2,3)]
+---SymTable--- 
+{cnt=0, v1=(1,int), v2=(0,int), v3=(0,int)}
+---OutList--- 
+[]
+---Heap---- 
+{1=2}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(new(v3,4);(newLatch(cnt,rH(v2));(fork((wH(v1,rH(v1)*10);(print(rH(v1));(countDown(cnt);fork((wH(v2,rH(v2)*10);(print(rH(v2));(countDown(cnt);fork((wH(v3,rH(v3)*10);(print(rH(v3));countDown(cnt))))))))))));(await(cnt);(print(100);(countDown(cnt);print(100))))))), new(v2,3)]
+---SymTable--- 
+{cnt=0, v1=(1,int), v2=(0,int), v3=(0,int)}
+---OutList--- 
+[]
+---Heap---- 
+{1=2}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(new(v3,4);(newLatch(cnt,rH(v2));(fork((wH(v1,rH(v1)*10);(print(rH(v1));(countDown(cnt);fork((wH(v2,rH(v2)*10);(print(rH(v2));(countDown(cnt);fork((wH(v3,rH(v3)*10);(print(rH(v3));countDown(cnt))))))))))));(await(cnt);(print(100);(countDown(cnt);print(100)))))))]
+---SymTable--- 
+{cnt=0, v1=(1,int), v2=(2,int), v3=(0,int)}
+---OutList--- 
+[]
+---Heap---- 
+{1=2, 2=3}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(new(v3,4);(newLatch(cnt,rH(v2));(fork((wH(v1,rH(v1)*10);(print(rH(v1));(countDown(cnt);fork((wH(v2,rH(v2)*10);(print(rH(v2));(countDown(cnt);fork((wH(v3,rH(v3)*10);(print(rH(v3));countDown(cnt))))))))))));(await(cnt);(print(100);(countDown(cnt);print(100)))))))]
+---SymTable--- 
+{cnt=0, v1=(1,int), v2=(2,int), v3=(0,int)}
+---OutList--- 
+[]
+---Heap---- 
+{1=2, 2=3}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(newLatch(cnt,rH(v2));(fork((wH(v1,rH(v1)*10);(print(rH(v1));(countDown(cnt);fork((wH(v2,rH(v2)*10);(print(rH(v2));(countDown(cnt);fork((wH(v3,rH(v3)*10);(print(rH(v3));countDown(cnt))))))))))));(await(cnt);(print(100);(countDown(cnt);print(100)))))), new(v3,4)]
+---SymTable--- 
+{cnt=0, v1=(1,int), v2=(2,int), v3=(0,int)}
+---OutList--- 
+[]
+---Heap---- 
+{1=2, 2=3}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(newLatch(cnt,rH(v2));(fork((wH(v1,rH(v1)*10);(print(rH(v1));(countDown(cnt);fork((wH(v2,rH(v2)*10);(print(rH(v2));(countDown(cnt);fork((wH(v3,rH(v3)*10);(print(rH(v3));countDown(cnt))))))))))));(await(cnt);(print(100);(countDown(cnt);print(100)))))), new(v3,4)]
+---SymTable--- 
+{cnt=0, v1=(1,int), v2=(2,int), v3=(0,int)}
+---OutList--- 
+[]
+---Heap---- 
+{1=2, 2=3}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(newLatch(cnt,rH(v2));(fork((wH(v1,rH(v1)*10);(print(rH(v1));(countDown(cnt);fork((wH(v2,rH(v2)*10);(print(rH(v2));(countDown(cnt);fork((wH(v3,rH(v3)*10);(print(rH(v3));countDown(cnt))))))))))));(await(cnt);(print(100);(countDown(cnt);print(100))))))]
+---SymTable--- 
+{cnt=0, v1=(1,int), v2=(2,int), v3=(3,int)}
+---OutList--- 
+[]
+---Heap---- 
+{1=2, 2=3, 3=4}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(newLatch(cnt,rH(v2));(fork((wH(v1,rH(v1)*10);(print(rH(v1));(countDown(cnt);fork((wH(v2,rH(v2)*10);(print(rH(v2));(countDown(cnt);fork((wH(v3,rH(v3)*10);(print(rH(v3));countDown(cnt))))))))))));(await(cnt);(print(100);(countDown(cnt);print(100))))))]
+---SymTable--- 
+{cnt=0, v1=(1,int), v2=(2,int), v3=(3,int)}
+---OutList--- 
+[]
+---Heap---- 
+{1=2, 2=3, 3=4}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(fork((wH(v1,rH(v1)*10);(print(rH(v1));(countDown(cnt);fork((wH(v2,rH(v2)*10);(print(rH(v2));(countDown(cnt);fork((wH(v3,rH(v3)*10);(print(rH(v3));countDown(cnt))))))))))));(await(cnt);(print(100);(countDown(cnt);print(100))))), newLatch(cnt,rH(v2))]
+---SymTable--- 
+{cnt=0, v1=(1,int), v2=(2,int), v3=(3,int)}
+---OutList--- 
+[]
+---Heap---- 
+{1=2, 2=3, 3=4}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(fork((wH(v1,rH(v1)*10);(print(rH(v1));(countDown(cnt);fork((wH(v2,rH(v2)*10);(print(rH(v2));(countDown(cnt);fork((wH(v3,rH(v3)*10);(print(rH(v3));countDown(cnt))))))))))));(await(cnt);(print(100);(countDown(cnt);print(100))))), newLatch(cnt,rH(v2))]
+---SymTable--- 
+{cnt=0, v1=(1,int), v2=(2,int), v3=(3,int)}
+---OutList--- 
+[]
+---Heap---- 
+{1=2, 2=3, 3=4}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(fork((wH(v1,rH(v1)*10);(print(rH(v1));(countDown(cnt);fork((wH(v2,rH(v2)*10);(print(rH(v2));(countDown(cnt);fork((wH(v3,rH(v3)*10);(print(rH(v3));countDown(cnt))))))))))));(await(cnt);(print(100);(countDown(cnt);print(100)))))]
+---SymTable--- 
+{cnt=-1, v1=(1,int), v2=(2,int), v3=(3,int)}
+---OutList--- 
+[]
+---Heap---- 
+{1=2, 2=3, 3=4}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(fork((wH(v1,rH(v1)*10);(print(rH(v1));(countDown(cnt);fork((wH(v2,rH(v2)*10);(print(rH(v2));(countDown(cnt);fork((wH(v3,rH(v3)*10);(print(rH(v3));countDown(cnt))))))))))));(await(cnt);(print(100);(countDown(cnt);print(100)))))]
+---SymTable--- 
+{cnt=-1, v1=(1,int), v2=(2,int), v3=(3,int)}
+---OutList--- 
+[]
+---Heap---- 
+{1=2, 2=3, 3=4}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(await(cnt);(print(100);(countDown(cnt);print(100)))), fork((wH(v1,rH(v1)*10);(print(rH(v1));(countDown(cnt);fork((wH(v2,rH(v2)*10);(print(rH(v2));(countDown(cnt);fork((wH(v3,rH(v3)*10);(print(rH(v3));countDown(cnt))))))))))))]
+---SymTable--- 
+{cnt=-1, v1=(1,int), v2=(2,int), v3=(3,int)}
+---OutList--- 
+[]
+---Heap---- 
+{1=2, 2=3, 3=4}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(await(cnt);(print(100);(countDown(cnt);print(100)))), fork((wH(v1,rH(v1)*10);(print(rH(v1));(countDown(cnt);fork((wH(v2,rH(v2)*10);(print(rH(v2));(countDown(cnt);fork((wH(v3,rH(v3)*10);(print(rH(v3));countDown(cnt))))))))))))]
+---SymTable--- 
+{cnt=-1, v1=(1,int), v2=(2,int), v3=(3,int)}
+---OutList--- 
+[]
+---Heap---- 
+{1=2, 2=3, 3=4}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(await(cnt);(print(100);(countDown(cnt);print(100))))]
+---SymTable--- 
+{cnt=-1, v1=(1,int), v2=(2,int), v3=(3,int)}
+---OutList--- 
+[]
+---Heap---- 
+{1=2, 2=3, 3=4}
+---FileTable--- 
+{}
+
+
+Program ID is 2
+---ExeStack--- 
+[(wH(v1,rH(v1)*10);(print(rH(v1));(countDown(cnt);fork((wH(v2,rH(v2)*10);(print(rH(v2));(countDown(cnt);fork((wH(v3,rH(v3)*10);(print(rH(v3));countDown(cnt)))))))))))]
+---SymTable--- 
+{cnt=-1, v1=(1,int), v2=(2,int), v3=(3,int)}
+---OutList--- 
+[]
+---Heap---- 
+{1=2, 2=3, 3=4}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(await(cnt);(print(100);(countDown(cnt);print(100))))]
+---SymTable--- 
+{cnt=-1, v1=(1,int), v2=(2,int), v3=(3,int)}
+---OutList--- 
+[]
+---Heap---- 
+{1=2, 2=3, 3=4}
+---FileTable--- 
+{}
+
+
+Program ID is 2
+---ExeStack--- 
+[(wH(v1,rH(v1)*10);(print(rH(v1));(countDown(cnt);fork((wH(v2,rH(v2)*10);(print(rH(v2));(countDown(cnt);fork((wH(v3,rH(v3)*10);(print(rH(v3));countDown(cnt)))))))))))]
+---SymTable--- 
+{cnt=-1, v1=(1,int), v2=(2,int), v3=(3,int)}
+---OutList--- 
+[]
+---Heap---- 
+{1=2, 2=3, 3=4}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(print(100);(countDown(cnt);print(100))), await(cnt)]
+---SymTable--- 
+{cnt=-1, v1=(1,int), v2=(2,int), v3=(3,int)}
+---OutList--- 
+[]
+---Heap---- 
+{1=2, 2=3, 3=4}
+---FileTable--- 
+{}
+
+
+Program ID is 2
+---ExeStack--- 
+[(print(rH(v1));(countDown(cnt);fork((wH(v2,rH(v2)*10);(print(rH(v2));(countDown(cnt);fork((wH(v3,rH(v3)*10);(print(rH(v3));countDown(cnt)))))))))), wH(v1,rH(v1)*10)]
+---SymTable--- 
+{cnt=-1, v1=(1,int), v2=(2,int), v3=(3,int)}
+---OutList--- 
+[]
+---Heap---- 
+{1=2, 2=3, 3=4}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(print(100);(countDown(cnt);print(100))), await(cnt)]
+---SymTable--- 
+{cnt=-1, v1=(1,int), v2=(2,int), v3=(3,int)}
+---OutList--- 
+[]
+---Heap---- 
+{1=2, 2=3, 3=4}
+---FileTable--- 
+{}
+
+
+Program ID is 2
+---ExeStack--- 
+[(print(rH(v1));(countDown(cnt);fork((wH(v2,rH(v2)*10);(print(rH(v2));(countDown(cnt);fork((wH(v3,rH(v3)*10);(print(rH(v3));countDown(cnt)))))))))), wH(v1,rH(v1)*10)]
+---SymTable--- 
+{cnt=-1, v1=(1,int), v2=(2,int), v3=(3,int)}
+---OutList--- 
+[]
+---Heap---- 
+{1=2, 2=3, 3=4}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(print(100);(countDown(cnt);print(100))), await(cnt)]
+---SymTable--- 
+{cnt=-1, v1=(1,int), v2=(2,int), v3=(3,int)}
+---OutList--- 
+[]
+---Heap---- 
+{1=20, 2=3, 3=4}
+---FileTable--- 
+{}
+
+
+Program ID is 2
+---ExeStack--- 
+[(print(rH(v1));(countDown(cnt);fork((wH(v2,rH(v2)*10);(print(rH(v2));(countDown(cnt);fork((wH(v3,rH(v3)*10);(print(rH(v3));countDown(cnt))))))))))]
+---SymTable--- 
+{cnt=-1, v1=(1,int), v2=(2,int), v3=(3,int)}
+---OutList--- 
+[]
+---Heap---- 
+{1=20, 2=3, 3=4}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(print(100);(countDown(cnt);print(100))), await(cnt)]
+---SymTable--- 
+{cnt=-1, v1=(1,int), v2=(2,int), v3=(3,int)}
+---OutList--- 
+[]
+---Heap---- 
+{1=20, 2=3, 3=4}
+---FileTable--- 
+{}
+
+
+Program ID is 2
+---ExeStack--- 
+[(print(rH(v1));(countDown(cnt);fork((wH(v2,rH(v2)*10);(print(rH(v2));(countDown(cnt);fork((wH(v3,rH(v3)*10);(print(rH(v3));countDown(cnt))))))))))]
+---SymTable--- 
+{cnt=-1, v1=(1,int), v2=(2,int), v3=(3,int)}
+---OutList--- 
+[]
+---Heap---- 
+{1=20, 2=3, 3=4}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(print(100);(countDown(cnt);print(100))), await(cnt)]
+---SymTable--- 
+{cnt=-1, v1=(1,int), v2=(2,int), v3=(3,int)}
+---OutList--- 
+[]
+---Heap---- 
+{1=20, 2=3, 3=4}
+---FileTable--- 
+{}
+
+
+Program ID is 2
+---ExeStack--- 
+[(countDown(cnt);fork((wH(v2,rH(v2)*10);(print(rH(v2));(countDown(cnt);fork((wH(v3,rH(v3)*10);(print(rH(v3));countDown(cnt))))))))), print(rH(v1))]
+---SymTable--- 
+{cnt=-1, v1=(1,int), v2=(2,int), v3=(3,int)}
+---OutList--- 
+[]
+---Heap---- 
+{1=20, 2=3, 3=4}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(print(100);(countDown(cnt);print(100))), await(cnt)]
+---SymTable--- 
+{cnt=-1, v1=(1,int), v2=(2,int), v3=(3,int)}
+---OutList--- 
+[]
+---Heap---- 
+{1=20, 2=3, 3=4}
+---FileTable--- 
+{}
+
+
+Program ID is 2
+---ExeStack--- 
+[(countDown(cnt);fork((wH(v2,rH(v2)*10);(print(rH(v2));(countDown(cnt);fork((wH(v3,rH(v3)*10);(print(rH(v3));countDown(cnt))))))))), print(rH(v1))]
+---SymTable--- 
+{cnt=-1, v1=(1,int), v2=(2,int), v3=(3,int)}
+---OutList--- 
+[]
+---Heap---- 
+{1=20, 2=3, 3=4}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(print(100);(countDown(cnt);print(100))), await(cnt)]
+---SymTable--- 
+{cnt=-1, v1=(1,int), v2=(2,int), v3=(3,int)}
+---OutList--- 
+[20]
+---Heap---- 
+{1=20, 2=3, 3=4}
+---FileTable--- 
+{}
+
+
+Program ID is 2
+---ExeStack--- 
+[(countDown(cnt);fork((wH(v2,rH(v2)*10);(print(rH(v2));(countDown(cnt);fork((wH(v3,rH(v3)*10);(print(rH(v3));countDown(cnt)))))))))]
+---SymTable--- 
+{cnt=-1, v1=(1,int), v2=(2,int), v3=(3,int)}
+---OutList--- 
+[20]
+---Heap---- 
+{1=20, 2=3, 3=4}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(print(100);(countDown(cnt);print(100))), await(cnt)]
+---SymTable--- 
+{cnt=-1, v1=(1,int), v2=(2,int), v3=(3,int)}
+---OutList--- 
+[20]
+---Heap---- 
+{1=20, 2=3, 3=4}
+---FileTable--- 
+{}
+
+
+Program ID is 2
+---ExeStack--- 
+[(countDown(cnt);fork((wH(v2,rH(v2)*10);(print(rH(v2));(countDown(cnt);fork((wH(v3,rH(v3)*10);(print(rH(v3));countDown(cnt)))))))))]
+---SymTable--- 
+{cnt=-1, v1=(1,int), v2=(2,int), v3=(3,int)}
+---OutList--- 
+[20]
+---Heap---- 
+{1=20, 2=3, 3=4}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(print(100);(countDown(cnt);print(100))), await(cnt)]
+---SymTable--- 
+{cnt=-1, v1=(1,int), v2=(2,int), v3=(3,int)}
+---OutList--- 
+[20]
+---Heap---- 
+{1=20, 2=3, 3=4}
+---FileTable--- 
+{}
+
+
+Program ID is 2
+---ExeStack--- 
+[fork((wH(v2,rH(v2)*10);(print(rH(v2));(countDown(cnt);fork((wH(v3,rH(v3)*10);(print(rH(v3));countDown(cnt)))))))), countDown(cnt)]
+---SymTable--- 
+{cnt=-1, v1=(1,int), v2=(2,int), v3=(3,int)}
+---OutList--- 
+[20]
+---Heap---- 
+{1=20, 2=3, 3=4}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(print(100);(countDown(cnt);print(100))), await(cnt)]
+---SymTable--- 
+{cnt=-1, v1=(1,int), v2=(2,int), v3=(3,int)}
+---OutList--- 
+[20]
+---Heap---- 
+{1=20, 2=3, 3=4}
+---FileTable--- 
+{}
+
+
+Program ID is 2
+---ExeStack--- 
+[fork((wH(v2,rH(v2)*10);(print(rH(v2));(countDown(cnt);fork((wH(v3,rH(v3)*10);(print(rH(v3));countDown(cnt)))))))), countDown(cnt)]
+---SymTable--- 
+{cnt=-1, v1=(1,int), v2=(2,int), v3=(3,int)}
+---OutList--- 
+[20]
+---Heap---- 
+{1=20, 2=3, 3=4}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(print(100);(countDown(cnt);print(100))), await(cnt)]
+---SymTable--- 
+{cnt=-1, v1=(1,int), v2=(2,int), v3=(3,int)}
+---OutList--- 
+[20, 2]
+---Heap---- 
+{1=20, 2=3, 3=4}
+---FileTable--- 
+{}
+
+
+Program ID is 2
+---ExeStack--- 
+[fork((wH(v2,rH(v2)*10);(print(rH(v2));(countDown(cnt);fork((wH(v3,rH(v3)*10);(print(rH(v3));countDown(cnt))))))))]
+---SymTable--- 
+{cnt=-1, v1=(1,int), v2=(2,int), v3=(3,int)}
+---OutList--- 
+[20, 2]
+---Heap---- 
+{1=20, 2=3, 3=4}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(print(100);(countDown(cnt);print(100))), await(cnt)]
+---SymTable--- 
+{cnt=-1, v1=(1,int), v2=(2,int), v3=(3,int)}
+---OutList--- 
+[20, 2]
+---Heap---- 
+{1=20, 2=3, 3=4}
+---FileTable--- 
+{}
+
+
+Program ID is 2
+---ExeStack--- 
+[fork((wH(v2,rH(v2)*10);(print(rH(v2));(countDown(cnt);fork((wH(v3,rH(v3)*10);(print(rH(v3));countDown(cnt))))))))]
+---SymTable--- 
+{cnt=-1, v1=(1,int), v2=(2,int), v3=(3,int)}
+---OutList--- 
+[20, 2]
+---Heap---- 
+{1=20, 2=3, 3=4}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(print(100);(countDown(cnt);print(100))), await(cnt)]
+---SymTable--- 
+{cnt=-1, v1=(1,int), v2=(2,int), v3=(3,int)}
+---OutList--- 
+[20, 2]
+---Heap---- 
+{1=20, 2=3, 3=4}
+---FileTable--- 
+{}
+
+
+Program ID is 2
+---ExeStack--- 
+[]
+---SymTable--- 
+{cnt=-1, v1=(1,int), v2=(2,int), v3=(3,int)}
+---OutList--- 
+[20, 2]
+---Heap---- 
+{1=20, 2=3, 3=4}
+---FileTable--- 
+{}
+
+
+Program ID is 3
+---ExeStack--- 
+[(wH(v2,rH(v2)*10);(print(rH(v2));(countDown(cnt);fork((wH(v3,rH(v3)*10);(print(rH(v3));countDown(cnt)))))))]
+---SymTable--- 
+{cnt=-1, v1=(1,int), v2=(2,int), v3=(3,int)}
+---OutList--- 
+[20, 2]
+---Heap---- 
+{1=20, 2=3, 3=4}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(print(100);(countDown(cnt);print(100))), await(cnt)]
+---SymTable--- 
+{cnt=-1, v1=(1,int), v2=(2,int), v3=(3,int)}
+---OutList--- 
+[20, 2]
+---Heap---- 
+{1=20, 2=3, 3=4}
+---FileTable--- 
+{}
+
+
+Program ID is 3
+---ExeStack--- 
+[(wH(v2,rH(v2)*10);(print(rH(v2));(countDown(cnt);fork((wH(v3,rH(v3)*10);(print(rH(v3));countDown(cnt)))))))]
+---SymTable--- 
+{cnt=-1, v1=(1,int), v2=(2,int), v3=(3,int)}
+---OutList--- 
+[20, 2]
+---Heap---- 
+{1=20, 2=3, 3=4}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(print(100);(countDown(cnt);print(100))), await(cnt)]
+---SymTable--- 
+{cnt=-1, v1=(1,int), v2=(2,int), v3=(3,int)}
+---OutList--- 
+[20, 2]
+---Heap---- 
+{1=20, 2=3, 3=4}
+---FileTable--- 
+{}
+
+
+Program ID is 3
+---ExeStack--- 
+[(print(rH(v2));(countDown(cnt);fork((wH(v3,rH(v3)*10);(print(rH(v3));countDown(cnt)))))), wH(v2,rH(v2)*10)]
+---SymTable--- 
+{cnt=-1, v1=(1,int), v2=(2,int), v3=(3,int)}
+---OutList--- 
+[20, 2]
+---Heap---- 
+{1=20, 2=3, 3=4}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(print(100);(countDown(cnt);print(100))), await(cnt)]
+---SymTable--- 
+{cnt=-1, v1=(1,int), v2=(2,int), v3=(3,int)}
+---OutList--- 
+[20, 2]
+---Heap---- 
+{1=20, 2=3, 3=4}
+---FileTable--- 
+{}
+
+
+Program ID is 3
+---ExeStack--- 
+[(print(rH(v2));(countDown(cnt);fork((wH(v3,rH(v3)*10);(print(rH(v3));countDown(cnt)))))), wH(v2,rH(v2)*10)]
+---SymTable--- 
+{cnt=-1, v1=(1,int), v2=(2,int), v3=(3,int)}
+---OutList--- 
+[20, 2]
+---Heap---- 
+{1=20, 2=3, 3=4}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(print(100);(countDown(cnt);print(100))), await(cnt)]
+---SymTable--- 
+{cnt=-1, v1=(1,int), v2=(2,int), v3=(3,int)}
+---OutList--- 
+[20, 2]
+---Heap---- 
+{1=20, 2=30, 3=4}
+---FileTable--- 
+{}
+
+
+Program ID is 3
+---ExeStack--- 
+[(print(rH(v2));(countDown(cnt);fork((wH(v3,rH(v3)*10);(print(rH(v3));countDown(cnt))))))]
+---SymTable--- 
+{cnt=-1, v1=(1,int), v2=(2,int), v3=(3,int)}
+---OutList--- 
+[20, 2]
+---Heap---- 
+{1=20, 2=30, 3=4}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(print(100);(countDown(cnt);print(100))), await(cnt)]
+---SymTable--- 
+{cnt=-1, v1=(1,int), v2=(2,int), v3=(3,int)}
+---OutList--- 
+[20, 2]
+---Heap---- 
+{1=20, 2=30, 3=4}
+---FileTable--- 
+{}
+
+
+Program ID is 3
+---ExeStack--- 
+[(print(rH(v2));(countDown(cnt);fork((wH(v3,rH(v3)*10);(print(rH(v3));countDown(cnt))))))]
+---SymTable--- 
+{cnt=-1, v1=(1,int), v2=(2,int), v3=(3,int)}
+---OutList--- 
+[20, 2]
+---Heap---- 
+{1=20, 2=30, 3=4}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(print(100);(countDown(cnt);print(100))), await(cnt)]
+---SymTable--- 
+{cnt=-1, v1=(1,int), v2=(2,int), v3=(3,int)}
+---OutList--- 
+[20, 2]
+---Heap---- 
+{1=20, 2=30, 3=4}
+---FileTable--- 
+{}
+
+
+Program ID is 3
+---ExeStack--- 
+[(countDown(cnt);fork((wH(v3,rH(v3)*10);(print(rH(v3));countDown(cnt))))), print(rH(v2))]
+---SymTable--- 
+{cnt=-1, v1=(1,int), v2=(2,int), v3=(3,int)}
+---OutList--- 
+[20, 2]
+---Heap---- 
+{1=20, 2=30, 3=4}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(print(100);(countDown(cnt);print(100))), await(cnt)]
+---SymTable--- 
+{cnt=-1, v1=(1,int), v2=(2,int), v3=(3,int)}
+---OutList--- 
+[20, 2]
+---Heap---- 
+{1=20, 2=30, 3=4}
+---FileTable--- 
+{}
+
+
+Program ID is 3
+---ExeStack--- 
+[(countDown(cnt);fork((wH(v3,rH(v3)*10);(print(rH(v3));countDown(cnt))))), print(rH(v2))]
+---SymTable--- 
+{cnt=-1, v1=(1,int), v2=(2,int), v3=(3,int)}
+---OutList--- 
+[20, 2]
+---Heap---- 
+{1=20, 2=30, 3=4}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(print(100);(countDown(cnt);print(100))), await(cnt)]
+---SymTable--- 
+{cnt=-1, v1=(1,int), v2=(2,int), v3=(3,int)}
+---OutList--- 
+[20, 2, 30]
+---Heap---- 
+{1=20, 2=30, 3=4}
+---FileTable--- 
+{}
+
+
+Program ID is 3
+---ExeStack--- 
+[(countDown(cnt);fork((wH(v3,rH(v3)*10);(print(rH(v3));countDown(cnt)))))]
+---SymTable--- 
+{cnt=-1, v1=(1,int), v2=(2,int), v3=(3,int)}
+---OutList--- 
+[20, 2, 30]
+---Heap---- 
+{1=20, 2=30, 3=4}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(print(100);(countDown(cnt);print(100))), await(cnt)]
+---SymTable--- 
+{cnt=-1, v1=(1,int), v2=(2,int), v3=(3,int)}
+---OutList--- 
+[20, 2, 30]
+---Heap---- 
+{1=20, 2=30, 3=4}
+---FileTable--- 
+{}
+
+
+Program ID is 3
+---ExeStack--- 
+[(countDown(cnt);fork((wH(v3,rH(v3)*10);(print(rH(v3));countDown(cnt)))))]
+---SymTable--- 
+{cnt=-1, v1=(1,int), v2=(2,int), v3=(3,int)}
+---OutList--- 
+[20, 2, 30]
+---Heap---- 
+{1=20, 2=30, 3=4}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(print(100);(countDown(cnt);print(100))), await(cnt)]
+---SymTable--- 
+{cnt=-1, v1=(1,int), v2=(2,int), v3=(3,int)}
+---OutList--- 
+[20, 2, 30]
+---Heap---- 
+{1=20, 2=30, 3=4}
+---FileTable--- 
+{}
+
+
+Program ID is 3
+---ExeStack--- 
+[fork((wH(v3,rH(v3)*10);(print(rH(v3));countDown(cnt)))), countDown(cnt)]
+---SymTable--- 
+{cnt=-1, v1=(1,int), v2=(2,int), v3=(3,int)}
+---OutList--- 
+[20, 2, 30]
+---Heap---- 
+{1=20, 2=30, 3=4}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(print(100);(countDown(cnt);print(100))), await(cnt)]
+---SymTable--- 
+{cnt=-1, v1=(1,int), v2=(2,int), v3=(3,int)}
+---OutList--- 
+[20, 2, 30]
+---Heap---- 
+{1=20, 2=30, 3=4}
+---FileTable--- 
+{}
+
+
+Program ID is 3
+---ExeStack--- 
+[fork((wH(v3,rH(v3)*10);(print(rH(v3));countDown(cnt)))), countDown(cnt)]
+---SymTable--- 
+{cnt=-1, v1=(1,int), v2=(2,int), v3=(3,int)}
+---OutList--- 
+[20, 2, 30]
+---Heap---- 
+{1=20, 2=30, 3=4}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(print(100);(countDown(cnt);print(100))), await(cnt)]
+---SymTable--- 
+{cnt=-1, v1=(1,int), v2=(2,int), v3=(3,int)}
+---OutList--- 
+[20, 2, 30, 3]
+---Heap---- 
+{1=20, 2=30, 3=4}
+---FileTable--- 
+{}
+
+
+Program ID is 3
+---ExeStack--- 
+[fork((wH(v3,rH(v3)*10);(print(rH(v3));countDown(cnt))))]
+---SymTable--- 
+{cnt=-1, v1=(1,int), v2=(2,int), v3=(3,int)}
+---OutList--- 
+[20, 2, 30, 3]
+---Heap---- 
+{1=20, 2=30, 3=4}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(print(100);(countDown(cnt);print(100))), await(cnt)]
+---SymTable--- 
+{cnt=-1, v1=(1,int), v2=(2,int), v3=(3,int)}
+---OutList--- 
+[20, 2, 30, 3]
+---Heap---- 
+{1=20, 2=30, 3=4}
+---FileTable--- 
+{}
+
+
+Program ID is 3
+---ExeStack--- 
+[fork((wH(v3,rH(v3)*10);(print(rH(v3));countDown(cnt))))]
+---SymTable--- 
+{cnt=-1, v1=(1,int), v2=(2,int), v3=(3,int)}
+---OutList--- 
+[20, 2, 30, 3]
+---Heap---- 
+{1=20, 2=30, 3=4}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(print(100);(countDown(cnt);print(100))), await(cnt)]
+---SymTable--- 
+{cnt=-1, v1=(1,int), v2=(2,int), v3=(3,int)}
+---OutList--- 
+[20, 2, 30, 3]
+---Heap---- 
+{1=20, 2=30, 3=4}
+---FileTable--- 
+{}
+
+
+Program ID is 3
+---ExeStack--- 
+[]
+---SymTable--- 
+{cnt=-1, v1=(1,int), v2=(2,int), v3=(3,int)}
+---OutList--- 
+[20, 2, 30, 3]
+---Heap---- 
+{1=20, 2=30, 3=4}
+---FileTable--- 
+{}
+
+
+Program ID is 4
+---ExeStack--- 
+[(wH(v3,rH(v3)*10);(print(rH(v3));countDown(cnt)))]
+---SymTable--- 
+{cnt=-1, v1=(1,int), v2=(2,int), v3=(3,int)}
+---OutList--- 
+[20, 2, 30, 3]
+---Heap---- 
+{1=20, 2=30, 3=4}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(print(100);(countDown(cnt);print(100))), await(cnt)]
+---SymTable--- 
+{cnt=-1, v1=(1,int), v2=(2,int), v3=(3,int)}
+---OutList--- 
+[20, 2, 30, 3]
+---Heap---- 
+{1=20, 2=30, 3=4}
+---FileTable--- 
+{}
+
+
+Program ID is 4
+---ExeStack--- 
+[(wH(v3,rH(v3)*10);(print(rH(v3));countDown(cnt)))]
+---SymTable--- 
+{cnt=-1, v1=(1,int), v2=(2,int), v3=(3,int)}
+---OutList--- 
+[20, 2, 30, 3]
+---Heap---- 
+{1=20, 2=30, 3=4}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(print(100);(countDown(cnt);print(100))), await(cnt)]
+---SymTable--- 
+{cnt=-1, v1=(1,int), v2=(2,int), v3=(3,int)}
+---OutList--- 
+[20, 2, 30, 3]
+---Heap---- 
+{1=20, 2=30, 3=4}
+---FileTable--- 
+{}
+
+
+Program ID is 4
+---ExeStack--- 
+[(print(rH(v3));countDown(cnt)), wH(v3,rH(v3)*10)]
+---SymTable--- 
+{cnt=-1, v1=(1,int), v2=(2,int), v3=(3,int)}
+---OutList--- 
+[20, 2, 30, 3]
+---Heap---- 
+{1=20, 2=30, 3=4}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(print(100);(countDown(cnt);print(100))), await(cnt)]
+---SymTable--- 
+{cnt=-1, v1=(1,int), v2=(2,int), v3=(3,int)}
+---OutList--- 
+[20, 2, 30, 3]
+---Heap---- 
+{1=20, 2=30, 3=4}
+---FileTable--- 
+{}
+
+
+Program ID is 4
+---ExeStack--- 
+[(print(rH(v3));countDown(cnt)), wH(v3,rH(v3)*10)]
+---SymTable--- 
+{cnt=-1, v1=(1,int), v2=(2,int), v3=(3,int)}
+---OutList--- 
+[20, 2, 30, 3]
+---Heap---- 
+{1=20, 2=30, 3=4}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(print(100);(countDown(cnt);print(100))), await(cnt)]
+---SymTable--- 
+{cnt=-1, v1=(1,int), v2=(2,int), v3=(3,int)}
+---OutList--- 
+[20, 2, 30, 3]
+---Heap---- 
+{1=20, 2=30, 3=40}
+---FileTable--- 
+{}
+
+
+Program ID is 4
+---ExeStack--- 
+[(print(rH(v3));countDown(cnt))]
+---SymTable--- 
+{cnt=-1, v1=(1,int), v2=(2,int), v3=(3,int)}
+---OutList--- 
+[20, 2, 30, 3]
+---Heap---- 
+{1=20, 2=30, 3=40}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(print(100);(countDown(cnt);print(100))), await(cnt)]
+---SymTable--- 
+{cnt=-1, v1=(1,int), v2=(2,int), v3=(3,int)}
+---OutList--- 
+[20, 2, 30, 3]
+---Heap---- 
+{1=20, 2=30, 3=40}
+---FileTable--- 
+{}
+
+
+Program ID is 4
+---ExeStack--- 
+[(print(rH(v3));countDown(cnt))]
+---SymTable--- 
+{cnt=-1, v1=(1,int), v2=(2,int), v3=(3,int)}
+---OutList--- 
+[20, 2, 30, 3]
+---Heap---- 
+{1=20, 2=30, 3=40}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(print(100);(countDown(cnt);print(100))), await(cnt)]
+---SymTable--- 
+{cnt=-1, v1=(1,int), v2=(2,int), v3=(3,int)}
+---OutList--- 
+[20, 2, 30, 3]
+---Heap---- 
+{1=20, 2=30, 3=40}
+---FileTable--- 
+{}
+
+
+Program ID is 4
+---ExeStack--- 
+[countDown(cnt), print(rH(v3))]
+---SymTable--- 
+{cnt=-1, v1=(1,int), v2=(2,int), v3=(3,int)}
+---OutList--- 
+[20, 2, 30, 3]
+---Heap---- 
+{1=20, 2=30, 3=40}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(print(100);(countDown(cnt);print(100))), await(cnt)]
+---SymTable--- 
+{cnt=-1, v1=(1,int), v2=(2,int), v3=(3,int)}
+---OutList--- 
+[20, 2, 30, 3]
+---Heap---- 
+{1=20, 2=30, 3=40}
+---FileTable--- 
+{}
+
+
+Program ID is 4
+---ExeStack--- 
+[countDown(cnt), print(rH(v3))]
+---SymTable--- 
+{cnt=-1, v1=(1,int), v2=(2,int), v3=(3,int)}
+---OutList--- 
+[20, 2, 30, 3]
+---Heap---- 
+{1=20, 2=30, 3=40}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(print(100);(countDown(cnt);print(100))), await(cnt)]
+---SymTable--- 
+{cnt=-1, v1=(1,int), v2=(2,int), v3=(3,int)}
+---OutList--- 
+[20, 2, 30, 3, 40]
+---Heap---- 
+{1=20, 2=30, 3=40}
+---FileTable--- 
+{}
+
+
+Program ID is 4
+---ExeStack--- 
+[countDown(cnt)]
+---SymTable--- 
+{cnt=-1, v1=(1,int), v2=(2,int), v3=(3,int)}
+---OutList--- 
+[20, 2, 30, 3, 40]
+---Heap---- 
+{1=20, 2=30, 3=40}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(print(100);(countDown(cnt);print(100))), await(cnt)]
+---SymTable--- 
+{cnt=-1, v1=(1,int), v2=(2,int), v3=(3,int)}
+---OutList--- 
+[20, 2, 30, 3, 40]
+---Heap---- 
+{1=20, 2=30, 3=40}
+---FileTable--- 
+{}
+
+
+Program ID is 4
+---ExeStack--- 
+[countDown(cnt)]
+---SymTable--- 
+{cnt=-1, v1=(1,int), v2=(2,int), v3=(3,int)}
+---OutList--- 
+[20, 2, 30, 3, 40]
+---Heap---- 
+{1=20, 2=30, 3=40}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(print(100);(countDown(cnt);print(100))), await(cnt)]
+---SymTable--- 
+{cnt=-1, v1=(1,int), v2=(2,int), v3=(3,int)}
+---OutList--- 
+[20, 2, 30, 3, 40, 4]
+---Heap---- 
+{1=20, 2=30, 3=40}
+---FileTable--- 
+{}
+
+
+Program ID is 4
+---ExeStack--- 
+[]
+---SymTable--- 
+{cnt=-1, v1=(1,int), v2=(2,int), v3=(3,int)}
+---OutList--- 
+[20, 2, 30, 3, 40, 4]
+---Heap---- 
+{1=20, 2=30, 3=40}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(print(100);(countDown(cnt);print(100))), await(cnt)]
+---SymTable--- 
+{cnt=-1, v1=(1,int), v2=(2,int), v3=(3,int)}
+---OutList--- 
+[20, 2, 30, 3, 40, 4]
+---Heap---- 
+{1=20, 2=30, 3=40}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(print(100);(countDown(cnt);print(100)))]
+---SymTable--- 
+{cnt=-1, v1=(1,int), v2=(2,int), v3=(3,int)}
+---OutList--- 
+[20, 2, 30, 3, 40, 4]
+---Heap---- 
+{1=20, 2=30, 3=40}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(print(100);(countDown(cnt);print(100)))]
+---SymTable--- 
+{cnt=-1, v1=(1,int), v2=(2,int), v3=(3,int)}
+---OutList--- 
+[20, 2, 30, 3, 40, 4]
+---Heap---- 
+{1=20, 2=30, 3=40}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(countDown(cnt);print(100)), print(100)]
+---SymTable--- 
+{cnt=-1, v1=(1,int), v2=(2,int), v3=(3,int)}
+---OutList--- 
+[20, 2, 30, 3, 40, 4]
+---Heap---- 
+{1=20, 2=30, 3=40}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(countDown(cnt);print(100)), print(100)]
+---SymTable--- 
+{cnt=-1, v1=(1,int), v2=(2,int), v3=(3,int)}
+---OutList--- 
+[20, 2, 30, 3, 40, 4]
+---Heap---- 
+{1=20, 2=30, 3=40}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(countDown(cnt);print(100))]
+---SymTable--- 
+{cnt=-1, v1=(1,int), v2=(2,int), v3=(3,int)}
+---OutList--- 
+[20, 2, 30, 3, 40, 4, 100]
+---Heap---- 
+{1=20, 2=30, 3=40}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(countDown(cnt);print(100))]
+---SymTable--- 
+{cnt=-1, v1=(1,int), v2=(2,int), v3=(3,int)}
+---OutList--- 
+[20, 2, 30, 3, 40, 4, 100]
+---Heap---- 
+{1=20, 2=30, 3=40}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(100), countDown(cnt)]
+---SymTable--- 
+{cnt=-1, v1=(1,int), v2=(2,int), v3=(3,int)}
+---OutList--- 
+[20, 2, 30, 3, 40, 4, 100]
+---Heap---- 
+{1=20, 2=30, 3=40}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(100), countDown(cnt)]
+---SymTable--- 
+{cnt=-1, v1=(1,int), v2=(2,int), v3=(3,int)}
+---OutList--- 
+[20, 2, 30, 3, 40, 4, 100]
+---Heap---- 
+{1=20, 2=30, 3=40}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(100)]
+---SymTable--- 
+{cnt=-1, v1=(1,int), v2=(2,int), v3=(3,int)}
+---OutList--- 
+[20, 2, 30, 3, 40, 4, 100, 1]
+---Heap---- 
+{1=20, 2=30, 3=40}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(100)]
+---SymTable--- 
+{cnt=-1, v1=(1,int), v2=(2,int), v3=(3,int)}
+---OutList--- 
+[20, 2, 30, 3, 40, 4, 100, 1]
+---Heap---- 
+{1=20, 2=30, 3=40}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[]
+---SymTable--- 
+{cnt=-1, v1=(1,int), v2=(2,int), v3=(3,int)}
+---OutList--- 
+[20, 2, 30, 3, 40, 4, 100, 1, 100]
+---Heap---- 
+{1=20, 2=30, 3=40}
+---FileTable--- 
+{}
+
+

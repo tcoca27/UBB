@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/UBB/SDA/SortedListBST/ExtendedTest.cpp
+ExtendedTest.h
+C:/UBB/SDA/SortedListBST/ExtendedTest.h
+assert.h
+-
+exception
+-
+cstdlib
+-
+vector
+-
+iostream
+-
+ListIterator.h
+C:/UBB/SDA/SortedListBST/ListIterator.h
+SortedIndexedList.h
+C:/UBB/SDA/SortedListBST/SortedIndexedList.h
+
+C:/UBB/SDA/SortedListBST/ExtendedTest.h
+
+C:/UBB/SDA/SortedListBST/ListIterator.h
+stack
+-
+SortedIndexedList.h
+C:/UBB/SDA/SortedListBST/SortedIndexedList.h
+
+C:/UBB/SDA/SortedListBST/SortedIndexedList.h
+

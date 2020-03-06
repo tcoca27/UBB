@@ -1,0 +1,3 @@
+C:/UBB/SDA/SortedListBST/cmake-build-debug/CMakeFiles/SortedListBST.dir
+C:/UBB/SDA/SortedListBST/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/UBB/SDA/SortedListBST/cmake-build-debug/CMakeFiles/rebuild_cache.dir

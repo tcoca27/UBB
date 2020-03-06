@@ -1,0 +1,1573 @@
+Program ID is 1
+---ExeStack--- 
+[(Ref(int) v;(new(v,20);(Ref(Ref(int)) a;(new(a,v);(print(v);print(a))))))]
+---SymTable--- 
+{}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(new(v,20);(Ref(Ref(int)) a;(new(a,v);(print(v);print(a))))), Ref(int) v]
+---SymTable--- 
+{}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(new(v,20);(Ref(Ref(int)) a;(new(a,v);(print(v);print(a))))), Ref(int) v]
+---SymTable--- 
+{}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(new(v,20);(Ref(Ref(int)) a;(new(a,v);(print(v);print(a)))))]
+---SymTable--- 
+{v=(0,int)}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(new(v,20);(Ref(Ref(int)) a;(new(a,v);(print(v);print(a)))))]
+---SymTable--- 
+{v=(0,int)}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(Ref(Ref(int)) a;(new(a,v);(print(v);print(a)))), new(v,20)]
+---SymTable--- 
+{v=(0,int)}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(Ref(Ref(int)) a;(new(a,v);(print(v);print(a)))), new(v,20)]
+---SymTable--- 
+{v=(0,int)}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(Ref(Ref(int)) a;(new(a,v);(print(v);print(a))))]
+---SymTable--- 
+{v=(1,int)}
+---OutList--- 
+[]
+---Heap---- 
+{1=20}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(Ref(Ref(int)) a;(new(a,v);(print(v);print(a))))]
+---SymTable--- 
+{v=(1,int)}
+---OutList--- 
+[]
+---Heap---- 
+{1=20}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(new(a,v);(print(v);print(a))), Ref(Ref(int)) a]
+---SymTable--- 
+{v=(1,int)}
+---OutList--- 
+[]
+---Heap---- 
+{1=20}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(new(a,v);(print(v);print(a))), Ref(Ref(int)) a]
+---SymTable--- 
+{v=(1,int)}
+---OutList--- 
+[]
+---Heap---- 
+{1=20}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(new(a,v);(print(v);print(a)))]
+---SymTable--- 
+{a=(0,Ref(int)), v=(1,int)}
+---OutList--- 
+[]
+---Heap---- 
+{1=20}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(new(a,v);(print(v);print(a)))]
+---SymTable--- 
+{a=(0,Ref(int)), v=(1,int)}
+---OutList--- 
+[]
+---Heap---- 
+{1=20}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(print(v);print(a)), new(a,v)]
+---SymTable--- 
+{a=(0,Ref(int)), v=(1,int)}
+---OutList--- 
+[]
+---Heap---- 
+{1=20}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(print(v);print(a)), new(a,v)]
+---SymTable--- 
+{a=(0,Ref(int)), v=(1,int)}
+---OutList--- 
+[]
+---Heap---- 
+{1=20}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(print(v);print(a))]
+---SymTable--- 
+{a=(2,Ref(int)), v=(1,int)}
+---OutList--- 
+[]
+---Heap---- 
+{1=20, 2=(1,int)}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(print(v);print(a))]
+---SymTable--- 
+{a=(2,Ref(int)), v=(1,int)}
+---OutList--- 
+[]
+---Heap---- 
+{1=20, 2=(1,int)}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(a), print(v)]
+---SymTable--- 
+{a=(2,Ref(int)), v=(1,int)}
+---OutList--- 
+[]
+---Heap---- 
+{1=20, 2=(1,int)}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(a), print(v)]
+---SymTable--- 
+{a=(2,Ref(int)), v=(1,int)}
+---OutList--- 
+[]
+---Heap---- 
+{1=20, 2=(1,int)}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(a)]
+---SymTable--- 
+{a=(2,Ref(int)), v=(1,int)}
+---OutList--- 
+[(1,int)]
+---Heap---- 
+{1=20, 2=(1,int)}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(a)]
+---SymTable--- 
+{a=(2,Ref(int)), v=(1,int)}
+---OutList--- 
+[(1,int)]
+---Heap---- 
+{1=20, 2=(1,int)}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[]
+---SymTable--- 
+{a=(2,Ref(int)), v=(1,int)}
+---OutList--- 
+[(1,int), (2,Ref(int))]
+---Heap---- 
+{1=20, 2=(1,int)}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(Ref(int) v;(new(v,20);(Ref(Ref(int)) a;(new(a,v);(print(rH(v));print(rH(rH(a))+5))))))]
+---SymTable--- 
+{}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(new(v,20);(Ref(Ref(int)) a;(new(a,v);(print(rH(v));print(rH(rH(a))+5))))), Ref(int) v]
+---SymTable--- 
+{}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(new(v,20);(Ref(Ref(int)) a;(new(a,v);(print(rH(v));print(rH(rH(a))+5))))), Ref(int) v]
+---SymTable--- 
+{}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(new(v,20);(Ref(Ref(int)) a;(new(a,v);(print(rH(v));print(rH(rH(a))+5))))), Ref(int) v]
+---SymTable--- 
+{}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(new(v,20);(Ref(Ref(int)) a;(new(a,v);(print(rH(v));print(rH(rH(a))+5)))))]
+---SymTable--- 
+{v=(0,int)}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(new(v,20);(Ref(Ref(int)) a;(new(a,v);(print(rH(v));print(rH(rH(a))+5)))))]
+---SymTable--- 
+{v=(0,int)}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(new(v,20);(Ref(Ref(int)) a;(new(a,v);(print(rH(v));print(rH(rH(a))+5)))))]
+---SymTable--- 
+{v=(0,int)}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(Ref(Ref(int)) a;(new(a,v);(print(rH(v));print(rH(rH(a))+5)))), new(v,20)]
+---SymTable--- 
+{v=(0,int)}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(Ref(Ref(int)) a;(new(a,v);(print(rH(v));print(rH(rH(a))+5)))), new(v,20)]
+---SymTable--- 
+{v=(0,int)}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(Ref(Ref(int)) a;(new(a,v);(print(rH(v));print(rH(rH(a))+5)))), new(v,20)]
+---SymTable--- 
+{v=(0,int)}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(Ref(Ref(int)) a;(new(a,v);(print(rH(v));print(rH(rH(a))+5))))]
+---SymTable--- 
+{v=(1,int)}
+---OutList--- 
+[]
+---Heap---- 
+{1=20}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(Ref(Ref(int)) a;(new(a,v);(print(rH(v));print(rH(rH(a))+5))))]
+---SymTable--- 
+{v=(1,int)}
+---OutList--- 
+[]
+---Heap---- 
+{1=20}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(Ref(Ref(int)) a;(new(a,v);(print(rH(v));print(rH(rH(a))+5))))]
+---SymTable--- 
+{v=(1,int)}
+---OutList--- 
+[]
+---Heap---- 
+{1=20}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(new(a,v);(print(rH(v));print(rH(rH(a))+5))), Ref(Ref(int)) a]
+---SymTable--- 
+{v=(1,int)}
+---OutList--- 
+[]
+---Heap---- 
+{1=20}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(new(a,v);(print(rH(v));print(rH(rH(a))+5))), Ref(Ref(int)) a]
+---SymTable--- 
+{v=(1,int)}
+---OutList--- 
+[]
+---Heap---- 
+{1=20}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(new(a,v);(print(rH(v));print(rH(rH(a))+5))), Ref(Ref(int)) a]
+---SymTable--- 
+{v=(1,int)}
+---OutList--- 
+[]
+---Heap---- 
+{1=20}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(new(a,v);(print(rH(v));print(rH(rH(a))+5)))]
+---SymTable--- 
+{a=(0,Ref(int)), v=(1,int)}
+---OutList--- 
+[]
+---Heap---- 
+{1=20}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(new(a,v);(print(rH(v));print(rH(rH(a))+5)))]
+---SymTable--- 
+{a=(0,Ref(int)), v=(1,int)}
+---OutList--- 
+[]
+---Heap---- 
+{1=20}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(new(a,v);(print(rH(v));print(rH(rH(a))+5)))]
+---SymTable--- 
+{a=(0,Ref(int)), v=(1,int)}
+---OutList--- 
+[]
+---Heap---- 
+{1=20}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(print(rH(v));print(rH(rH(a))+5)), new(a,v)]
+---SymTable--- 
+{a=(0,Ref(int)), v=(1,int)}
+---OutList--- 
+[]
+---Heap---- 
+{1=20}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(print(rH(v));print(rH(rH(a))+5)), new(a,v)]
+---SymTable--- 
+{a=(0,Ref(int)), v=(1,int)}
+---OutList--- 
+[]
+---Heap---- 
+{1=20}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(print(rH(v));print(rH(rH(a))+5)), new(a,v)]
+---SymTable--- 
+{a=(0,Ref(int)), v=(1,int)}
+---OutList--- 
+[]
+---Heap---- 
+{1=20}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(print(rH(v));print(rH(rH(a))+5))]
+---SymTable--- 
+{a=(2,Ref(int)), v=(1,int)}
+---OutList--- 
+[]
+---Heap---- 
+{1=20, 2=(1,int)}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(print(rH(v));print(rH(rH(a))+5))]
+---SymTable--- 
+{a=(2,Ref(int)), v=(1,int)}
+---OutList--- 
+[]
+---Heap---- 
+{1=20, 2=(1,int)}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(print(rH(v));print(rH(rH(a))+5))]
+---SymTable--- 
+{a=(2,Ref(int)), v=(1,int)}
+---OutList--- 
+[]
+---Heap---- 
+{1=20, 2=(1,int)}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(rH(rH(a))+5), print(rH(v))]
+---SymTable--- 
+{a=(2,Ref(int)), v=(1,int)}
+---OutList--- 
+[]
+---Heap---- 
+{1=20, 2=(1,int)}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(rH(rH(a))+5), print(rH(v))]
+---SymTable--- 
+{a=(2,Ref(int)), v=(1,int)}
+---OutList--- 
+[]
+---Heap---- 
+{1=20, 2=(1,int)}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(rH(rH(a))+5), print(rH(v))]
+---SymTable--- 
+{a=(2,Ref(int)), v=(1,int)}
+---OutList--- 
+[]
+---Heap---- 
+{1=20, 2=(1,int)}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(rH(rH(a))+5)]
+---SymTable--- 
+{a=(2,Ref(int)), v=(1,int)}
+---OutList--- 
+[20]
+---Heap---- 
+{1=20, 2=(1,int)}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(rH(rH(a))+5)]
+---SymTable--- 
+{a=(2,Ref(int)), v=(1,int)}
+---OutList--- 
+[20]
+---Heap---- 
+{1=20, 2=(1,int)}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(rH(rH(a))+5)]
+---SymTable--- 
+{a=(2,Ref(int)), v=(1,int)}
+---OutList--- 
+[20]
+---Heap---- 
+{1=20, 2=(1,int)}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[]
+---SymTable--- 
+{a=(2,Ref(int)), v=(1,int)}
+---OutList--- 
+[20, 25]
+---Heap---- 
+{1=20, 2=(1,int)}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[]
+---SymTable--- 
+{a=(2,Ref(int)), v=(1,int)}
+---OutList--- 
+[20, 25]
+---Heap---- 
+{1=20, 2=(1,int)}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(Ref(int) v;(new(v,20);(Ref(Ref(int)) a;(new(a,v);(print(rH(v));print(rH(rH(a))+5))))))]
+---SymTable--- 
+{}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(new(v,20);(Ref(Ref(int)) a;(new(a,v);(print(rH(v));print(rH(rH(a))+5))))), Ref(int) v]
+---SymTable--- 
+{}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(new(v,20);(Ref(Ref(int)) a;(new(a,v);(print(rH(v));print(rH(rH(a))+5))))), Ref(int) v]
+---SymTable--- 
+{}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(new(v,20);(Ref(Ref(int)) a;(new(a,v);(print(rH(v));print(rH(rH(a))+5))))), Ref(int) v]
+---SymTable--- 
+{}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(new(v,20);(Ref(Ref(int)) a;(new(a,v);(print(rH(v));print(rH(rH(a))+5)))))]
+---SymTable--- 
+{v=(0,int)}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(new(v,20);(Ref(Ref(int)) a;(new(a,v);(print(rH(v));print(rH(rH(a))+5)))))]
+---SymTable--- 
+{v=(0,int)}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(new(v,20);(Ref(Ref(int)) a;(new(a,v);(print(rH(v));print(rH(rH(a))+5)))))]
+---SymTable--- 
+{v=(0,int)}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(Ref(Ref(int)) a;(new(a,v);(print(rH(v));print(rH(rH(a))+5)))), new(v,20)]
+---SymTable--- 
+{v=(0,int)}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(Ref(Ref(int)) a;(new(a,v);(print(rH(v));print(rH(rH(a))+5)))), new(v,20)]
+---SymTable--- 
+{v=(0,int)}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(Ref(Ref(int)) a;(new(a,v);(print(rH(v));print(rH(rH(a))+5)))), new(v,20)]
+---SymTable--- 
+{v=(0,int)}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(Ref(Ref(int)) a;(new(a,v);(print(rH(v));print(rH(rH(a))+5))))]
+---SymTable--- 
+{v=(1,int)}
+---OutList--- 
+[]
+---Heap---- 
+{1=20}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(Ref(Ref(int)) a;(new(a,v);(print(rH(v));print(rH(rH(a))+5))))]
+---SymTable--- 
+{v=(1,int)}
+---OutList--- 
+[]
+---Heap---- 
+{1=20}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(Ref(Ref(int)) a;(new(a,v);(print(rH(v));print(rH(rH(a))+5))))]
+---SymTable--- 
+{v=(1,int)}
+---OutList--- 
+[]
+---Heap---- 
+{1=20}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(new(a,v);(print(rH(v));print(rH(rH(a))+5))), Ref(Ref(int)) a]
+---SymTable--- 
+{v=(1,int)}
+---OutList--- 
+[]
+---Heap---- 
+{1=20}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(new(a,v);(print(rH(v));print(rH(rH(a))+5))), Ref(Ref(int)) a]
+---SymTable--- 
+{v=(1,int)}
+---OutList--- 
+[]
+---Heap---- 
+{1=20}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(new(a,v);(print(rH(v));print(rH(rH(a))+5))), Ref(Ref(int)) a]
+---SymTable--- 
+{v=(1,int)}
+---OutList--- 
+[]
+---Heap---- 
+{1=20}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(new(a,v);(print(rH(v));print(rH(rH(a))+5)))]
+---SymTable--- 
+{a=(0,Ref(int)), v=(1,int)}
+---OutList--- 
+[]
+---Heap---- 
+{1=20}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(new(a,v);(print(rH(v));print(rH(rH(a))+5)))]
+---SymTable--- 
+{a=(0,Ref(int)), v=(1,int)}
+---OutList--- 
+[]
+---Heap---- 
+{1=20}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(new(a,v);(print(rH(v));print(rH(rH(a))+5)))]
+---SymTable--- 
+{a=(0,Ref(int)), v=(1,int)}
+---OutList--- 
+[]
+---Heap---- 
+{1=20}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(print(rH(v));print(rH(rH(a))+5)), new(a,v)]
+---SymTable--- 
+{a=(0,Ref(int)), v=(1,int)}
+---OutList--- 
+[]
+---Heap---- 
+{1=20}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(print(rH(v));print(rH(rH(a))+5)), new(a,v)]
+---SymTable--- 
+{a=(0,Ref(int)), v=(1,int)}
+---OutList--- 
+[]
+---Heap---- 
+{1=20}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(print(rH(v));print(rH(rH(a))+5)), new(a,v)]
+---SymTable--- 
+{a=(0,Ref(int)), v=(1,int)}
+---OutList--- 
+[]
+---Heap---- 
+{1=20}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(print(rH(v));print(rH(rH(a))+5))]
+---SymTable--- 
+{a=(2,Ref(int)), v=(1,int)}
+---OutList--- 
+[]
+---Heap---- 
+{1=20, 2=(1,int)}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(print(rH(v));print(rH(rH(a))+5))]
+---SymTable--- 
+{a=(2,Ref(int)), v=(1,int)}
+---OutList--- 
+[]
+---Heap---- 
+{1=20, 2=(1,int)}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(print(rH(v));print(rH(rH(a))+5))]
+---SymTable--- 
+{a=(2,Ref(int)), v=(1,int)}
+---OutList--- 
+[]
+---Heap---- 
+{1=20, 2=(1,int)}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(rH(rH(a))+5), print(rH(v))]
+---SymTable--- 
+{a=(2,Ref(int)), v=(1,int)}
+---OutList--- 
+[]
+---Heap---- 
+{1=20, 2=(1,int)}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(rH(rH(a))+5), print(rH(v))]
+---SymTable--- 
+{a=(2,Ref(int)), v=(1,int)}
+---OutList--- 
+[]
+---Heap---- 
+{1=20, 2=(1,int)}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(rH(rH(a))+5), print(rH(v))]
+---SymTable--- 
+{a=(2,Ref(int)), v=(1,int)}
+---OutList--- 
+[]
+---Heap---- 
+{1=20, 2=(1,int)}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(rH(rH(a))+5)]
+---SymTable--- 
+{a=(2,Ref(int)), v=(1,int)}
+---OutList--- 
+[20]
+---Heap---- 
+{1=20, 2=(1,int)}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(rH(rH(a))+5)]
+---SymTable--- 
+{a=(2,Ref(int)), v=(1,int)}
+---OutList--- 
+[20]
+---Heap---- 
+{1=20, 2=(1,int)}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(rH(rH(a))+5)]
+---SymTable--- 
+{a=(2,Ref(int)), v=(1,int)}
+---OutList--- 
+[20]
+---Heap---- 
+{1=20, 2=(1,int)}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[]
+---SymTable--- 
+{a=(2,Ref(int)), v=(1,int)}
+---OutList--- 
+[20, 25]
+---Heap---- 
+{1=20, 2=(1,int)}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[]
+---SymTable--- 
+{a=(2,Ref(int)), v=(1,int)}
+---OutList--- 
+[20, 25]
+---Heap---- 
+{1=20, 2=(1,int)}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(Ref(int) v;(new(v,20);(Ref(Ref(int)) a;(new(a,v);(print(rH(v));print(rH(rH(a))+5))))))]
+---SymTable--- 
+{}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(new(v,20);(Ref(Ref(int)) a;(new(a,v);(print(rH(v));print(rH(rH(a))+5))))), Ref(int) v]
+---SymTable--- 
+{}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(new(v,20);(Ref(Ref(int)) a;(new(a,v);(print(rH(v));print(rH(rH(a))+5))))), Ref(int) v]
+---SymTable--- 
+{}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(new(v,20);(Ref(Ref(int)) a;(new(a,v);(print(rH(v));print(rH(rH(a))+5))))), Ref(int) v]
+---SymTable--- 
+{}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(new(v,20);(Ref(Ref(int)) a;(new(a,v);(print(rH(v));print(rH(rH(a))+5)))))]
+---SymTable--- 
+{v=(0,int)}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(new(v,20);(Ref(Ref(int)) a;(new(a,v);(print(rH(v));print(rH(rH(a))+5)))))]
+---SymTable--- 
+{v=(0,int)}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(new(v,20);(Ref(Ref(int)) a;(new(a,v);(print(rH(v));print(rH(rH(a))+5)))))]
+---SymTable--- 
+{v=(0,int)}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(Ref(Ref(int)) a;(new(a,v);(print(rH(v));print(rH(rH(a))+5)))), new(v,20)]
+---SymTable--- 
+{v=(0,int)}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(Ref(Ref(int)) a;(new(a,v);(print(rH(v));print(rH(rH(a))+5)))), new(v,20)]
+---SymTable--- 
+{v=(0,int)}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(Ref(Ref(int)) a;(new(a,v);(print(rH(v));print(rH(rH(a))+5)))), new(v,20)]
+---SymTable--- 
+{v=(0,int)}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(Ref(Ref(int)) a;(new(a,v);(print(rH(v));print(rH(rH(a))+5))))]
+---SymTable--- 
+{v=(1,int)}
+---OutList--- 
+[]
+---Heap---- 
+{1=20}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(Ref(Ref(int)) a;(new(a,v);(print(rH(v));print(rH(rH(a))+5))))]
+---SymTable--- 
+{v=(1,int)}
+---OutList--- 
+[]
+---Heap---- 
+{1=20}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(Ref(Ref(int)) a;(new(a,v);(print(rH(v));print(rH(rH(a))+5))))]
+---SymTable--- 
+{v=(1,int)}
+---OutList--- 
+[]
+---Heap---- 
+{1=20}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(new(a,v);(print(rH(v));print(rH(rH(a))+5))), Ref(Ref(int)) a]
+---SymTable--- 
+{v=(1,int)}
+---OutList--- 
+[]
+---Heap---- 
+{1=20}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(new(a,v);(print(rH(v));print(rH(rH(a))+5))), Ref(Ref(int)) a]
+---SymTable--- 
+{v=(1,int)}
+---OutList--- 
+[]
+---Heap---- 
+{1=20}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(new(a,v);(print(rH(v));print(rH(rH(a))+5))), Ref(Ref(int)) a]
+---SymTable--- 
+{v=(1,int)}
+---OutList--- 
+[]
+---Heap---- 
+{1=20}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(new(a,v);(print(rH(v));print(rH(rH(a))+5)))]
+---SymTable--- 
+{a=(0,Ref(int)), v=(1,int)}
+---OutList--- 
+[]
+---Heap---- 
+{1=20}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(new(a,v);(print(rH(v));print(rH(rH(a))+5)))]
+---SymTable--- 
+{a=(0,Ref(int)), v=(1,int)}
+---OutList--- 
+[]
+---Heap---- 
+{1=20}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(new(a,v);(print(rH(v));print(rH(rH(a))+5)))]
+---SymTable--- 
+{a=(0,Ref(int)), v=(1,int)}
+---OutList--- 
+[]
+---Heap---- 
+{1=20}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(print(rH(v));print(rH(rH(a))+5)), new(a,v)]
+---SymTable--- 
+{a=(0,Ref(int)), v=(1,int)}
+---OutList--- 
+[]
+---Heap---- 
+{1=20}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(print(rH(v));print(rH(rH(a))+5)), new(a,v)]
+---SymTable--- 
+{a=(0,Ref(int)), v=(1,int)}
+---OutList--- 
+[]
+---Heap---- 
+{1=20}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(print(rH(v));print(rH(rH(a))+5)), new(a,v)]
+---SymTable--- 
+{a=(0,Ref(int)), v=(1,int)}
+---OutList--- 
+[]
+---Heap---- 
+{1=20}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(print(rH(v));print(rH(rH(a))+5))]
+---SymTable--- 
+{a=(2,Ref(int)), v=(1,int)}
+---OutList--- 
+[]
+---Heap---- 
+{1=20, 2=(1,int)}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(print(rH(v));print(rH(rH(a))+5))]
+---SymTable--- 
+{a=(2,Ref(int)), v=(1,int)}
+---OutList--- 
+[]
+---Heap---- 
+{1=20, 2=(1,int)}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(print(rH(v));print(rH(rH(a))+5))]
+---SymTable--- 
+{a=(2,Ref(int)), v=(1,int)}
+---OutList--- 
+[]
+---Heap---- 
+{1=20, 2=(1,int)}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(rH(rH(a))+5), print(rH(v))]
+---SymTable--- 
+{a=(2,Ref(int)), v=(1,int)}
+---OutList--- 
+[]
+---Heap---- 
+{1=20, 2=(1,int)}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(rH(rH(a))+5), print(rH(v))]
+---SymTable--- 
+{a=(2,Ref(int)), v=(1,int)}
+---OutList--- 
+[]
+---Heap---- 
+{1=20, 2=(1,int)}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(rH(rH(a))+5), print(rH(v))]
+---SymTable--- 
+{a=(2,Ref(int)), v=(1,int)}
+---OutList--- 
+[]
+---Heap---- 
+{1=20, 2=(1,int)}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(rH(rH(a))+5)]
+---SymTable--- 
+{a=(2,Ref(int)), v=(1,int)}
+---OutList--- 
+[20]
+---Heap---- 
+{1=20, 2=(1,int)}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(rH(rH(a))+5)]
+---SymTable--- 
+{a=(2,Ref(int)), v=(1,int)}
+---OutList--- 
+[20]
+---Heap---- 
+{1=20, 2=(1,int)}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(rH(rH(a))+5)]
+---SymTable--- 
+{a=(2,Ref(int)), v=(1,int)}
+---OutList--- 
+[20]
+---Heap---- 
+{1=20, 2=(1,int)}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[]
+---SymTable--- 
+{a=(2,Ref(int)), v=(1,int)}
+---OutList--- 
+[20, 25]
+---Heap---- 
+{1=20, 2=(1,int)}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[]
+---SymTable--- 
+{a=(2,Ref(int)), v=(1,int)}
+---OutList--- 
+[20, 25]
+---Heap---- 
+{1=20, 2=(1,int)}
+---FileTable--- 
+{}
+
+

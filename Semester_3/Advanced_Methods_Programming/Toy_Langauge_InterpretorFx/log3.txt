@@ -1,0 +1,2145 @@
+Program ID is 1
+---ExeStack--- 
+[(string varf;(varf=test.in;(open(varf);(int varc;(read(varc,varf);(print(varc);(read(varc,varf);(print(varc);close(varf)))))))))]
+---SymTable--- 
+{}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(varf=test.in;(open(varf);(int varc;(read(varc,varf);(print(varc);(read(varc,varf);(print(varc);close(varf)))))))), string varf]
+---SymTable--- 
+{}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(varf=test.in;(open(varf);(int varc;(read(varc,varf);(print(varc);(read(varc,varf);(print(varc);close(varf)))))))), string varf]
+---SymTable--- 
+{}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(varf=test.in;(open(varf);(int varc;(read(varc,varf);(print(varc);(read(varc,varf);(print(varc);close(varf)))))))), string varf]
+---SymTable--- 
+{}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(varf=test.in;(open(varf);(int varc;(read(varc,varf);(print(varc);(read(varc,varf);(print(varc);close(varf))))))))]
+---SymTable--- 
+{varf=}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(varf=test.in;(open(varf);(int varc;(read(varc,varf);(print(varc);(read(varc,varf);(print(varc);close(varf))))))))]
+---SymTable--- 
+{varf=}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(varf=test.in;(open(varf);(int varc;(read(varc,varf);(print(varc);(read(varc,varf);(print(varc);close(varf))))))))]
+---SymTable--- 
+{varf=}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(open(varf);(int varc;(read(varc,varf);(print(varc);(read(varc,varf);(print(varc);close(varf))))))), varf=test.in]
+---SymTable--- 
+{varf=}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(open(varf);(int varc;(read(varc,varf);(print(varc);(read(varc,varf);(print(varc);close(varf))))))), varf=test.in]
+---SymTable--- 
+{varf=}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(open(varf);(int varc;(read(varc,varf);(print(varc);(read(varc,varf);(print(varc);close(varf))))))), varf=test.in]
+---SymTable--- 
+{varf=}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(open(varf);(int varc;(read(varc,varf);(print(varc);(read(varc,varf);(print(varc);close(varf)))))))]
+---SymTable--- 
+{varf=test.in}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(open(varf);(int varc;(read(varc,varf);(print(varc);(read(varc,varf);(print(varc);close(varf)))))))]
+---SymTable--- 
+{varf=test.in}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(string varf;(varf=test.in;(open(varf);(int varc;(read(varc,varf);(print(varc);(read(varc,varf);(print(varc);close(varf)))))))))]
+---SymTable--- 
+{}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(varf=test.in;(open(varf);(int varc;(read(varc,varf);(print(varc);(read(varc,varf);(print(varc);close(varf)))))))), string varf]
+---SymTable--- 
+{}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(varf=test.in;(open(varf);(int varc;(read(varc,varf);(print(varc);(read(varc,varf);(print(varc);close(varf)))))))), string varf]
+---SymTable--- 
+{}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(varf=test.in;(open(varf);(int varc;(read(varc,varf);(print(varc);(read(varc,varf);(print(varc);close(varf)))))))), string varf]
+---SymTable--- 
+{}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(varf=test.in;(open(varf);(int varc;(read(varc,varf);(print(varc);(read(varc,varf);(print(varc);close(varf))))))))]
+---SymTable--- 
+{varf=}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(varf=test.in;(open(varf);(int varc;(read(varc,varf);(print(varc);(read(varc,varf);(print(varc);close(varf))))))))]
+---SymTable--- 
+{varf=}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(varf=test.in;(open(varf);(int varc;(read(varc,varf);(print(varc);(read(varc,varf);(print(varc);close(varf))))))))]
+---SymTable--- 
+{varf=}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(open(varf);(int varc;(read(varc,varf);(print(varc);(read(varc,varf);(print(varc);close(varf))))))), varf=test.in]
+---SymTable--- 
+{varf=}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(open(varf);(int varc;(read(varc,varf);(print(varc);(read(varc,varf);(print(varc);close(varf))))))), varf=test.in]
+---SymTable--- 
+{varf=}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(open(varf);(int varc;(read(varc,varf);(print(varc);(read(varc,varf);(print(varc);close(varf))))))), varf=test.in]
+---SymTable--- 
+{varf=}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(open(varf);(int varc;(read(varc,varf);(print(varc);(read(varc,varf);(print(varc);close(varf)))))))]
+---SymTable--- 
+{varf=test.in}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(open(varf);(int varc;(read(varc,varf);(print(varc);(read(varc,varf);(print(varc);close(varf)))))))]
+---SymTable--- 
+{varf=test.in}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(open(varf);(int varc;(read(varc,varf);(print(varc);(read(varc,varf);(print(varc);close(varf)))))))]
+---SymTable--- 
+{varf=test.in}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(int varc;(read(varc,varf);(print(varc);(read(varc,varf);(print(varc);close(varf)))))), open(varf)]
+---SymTable--- 
+{varf=test.in}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(int varc;(read(varc,varf);(print(varc);(read(varc,varf);(print(varc);close(varf)))))), open(varf)]
+---SymTable--- 
+{varf=test.in}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(int varc;(read(varc,varf);(print(varc);(read(varc,varf);(print(varc);close(varf)))))), open(varf)]
+---SymTable--- 
+{varf=test.in}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(int varc;(read(varc,varf);(print(varc);(read(varc,varf);(print(varc);close(varf))))))]
+---SymTable--- 
+{varf=test.in}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(int varc;(read(varc,varf);(print(varc);(read(varc,varf);(print(varc);close(varf))))))]
+---SymTable--- 
+{varf=test.in}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(int varc;(read(varc,varf);(print(varc);(read(varc,varf);(print(varc);close(varf))))))]
+---SymTable--- 
+{varf=test.in}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(read(varc,varf);(print(varc);(read(varc,varf);(print(varc);close(varf))))), int varc]
+---SymTable--- 
+{varf=test.in}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(read(varc,varf);(print(varc);(read(varc,varf);(print(varc);close(varf))))), int varc]
+---SymTable--- 
+{varf=test.in}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(read(varc,varf);(print(varc);(read(varc,varf);(print(varc);close(varf))))), int varc]
+---SymTable--- 
+{varf=test.in}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(read(varc,varf);(print(varc);(read(varc,varf);(print(varc);close(varf)))))]
+---SymTable--- 
+{varf=test.in, varc=0}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(read(varc,varf);(print(varc);(read(varc,varf);(print(varc);close(varf)))))]
+---SymTable--- 
+{varf=test.in, varc=0}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(read(varc,varf);(print(varc);(read(varc,varf);(print(varc);close(varf)))))]
+---SymTable--- 
+{varf=test.in, varc=0}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(print(varc);(read(varc,varf);(print(varc);close(varf)))), read(varc,varf)]
+---SymTable--- 
+{varf=test.in, varc=0}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(print(varc);(read(varc,varf);(print(varc);close(varf)))), read(varc,varf)]
+---SymTable--- 
+{varf=test.in, varc=0}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(print(varc);(read(varc,varf);(print(varc);close(varf)))), read(varc,varf)]
+---SymTable--- 
+{varf=test.in, varc=0}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(print(varc);(read(varc,varf);(print(varc);close(varf))))]
+---SymTable--- 
+{varf=test.in, varc=0}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(print(varc);(read(varc,varf);(print(varc);close(varf))))]
+---SymTable--- 
+{varf=test.in, varc=0}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(print(varc);(read(varc,varf);(print(varc);close(varf))))]
+---SymTable--- 
+{varf=test.in, varc=0}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(read(varc,varf);(print(varc);close(varf))), print(varc)]
+---SymTable--- 
+{varf=test.in, varc=0}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(read(varc,varf);(print(varc);close(varf))), print(varc)]
+---SymTable--- 
+{varf=test.in, varc=0}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(read(varc,varf);(print(varc);close(varf))), print(varc)]
+---SymTable--- 
+{varf=test.in, varc=0}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(read(varc,varf);(print(varc);close(varf)))]
+---SymTable--- 
+{varf=test.in, varc=0}
+---OutList--- 
+[0]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(read(varc,varf);(print(varc);close(varf)))]
+---SymTable--- 
+{varf=test.in, varc=0}
+---OutList--- 
+[0]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(read(varc,varf);(print(varc);close(varf)))]
+---SymTable--- 
+{varf=test.in, varc=0}
+---OutList--- 
+[0]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(print(varc);close(varf)), read(varc,varf)]
+---SymTable--- 
+{varf=test.in, varc=0}
+---OutList--- 
+[0]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(print(varc);close(varf)), read(varc,varf)]
+---SymTable--- 
+{varf=test.in, varc=0}
+---OutList--- 
+[0]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(print(varc);close(varf)), read(varc,varf)]
+---SymTable--- 
+{varf=test.in, varc=0}
+---OutList--- 
+[0]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(print(varc);close(varf))]
+---SymTable--- 
+{varf=test.in, varc=0}
+---OutList--- 
+[0]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(print(varc);close(varf))]
+---SymTable--- 
+{varf=test.in, varc=0}
+---OutList--- 
+[0]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(print(varc);close(varf))]
+---SymTable--- 
+{varf=test.in, varc=0}
+---OutList--- 
+[0]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[close(varf), print(varc)]
+---SymTable--- 
+{varf=test.in, varc=0}
+---OutList--- 
+[0]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[close(varf), print(varc)]
+---SymTable--- 
+{varf=test.in, varc=0}
+---OutList--- 
+[0]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[close(varf), print(varc)]
+---SymTable--- 
+{varf=test.in, varc=0}
+---OutList--- 
+[0]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[close(varf)]
+---SymTable--- 
+{varf=test.in, varc=0}
+---OutList--- 
+[0, 0]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[close(varf)]
+---SymTable--- 
+{varf=test.in, varc=0}
+---OutList--- 
+[0, 0]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[close(varf)]
+---SymTable--- 
+{varf=test.in, varc=0}
+---OutList--- 
+[0, 0]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[]
+---SymTable--- 
+{varf=test.in, varc=0}
+---OutList--- 
+[0, 0]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[]
+---SymTable--- 
+{varf=test.in, varc=0}
+---OutList--- 
+[0, 0]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(string varf;(varf=test.in;(open(varf);(int varc;(read(varc,varf);(print(varc);(read(varc,varf);(print(varc);close(varf)))))))))]
+---SymTable--- 
+{}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(varf=test.in;(open(varf);(int varc;(read(varc,varf);(print(varc);(read(varc,varf);(print(varc);close(varf)))))))), string varf]
+---SymTable--- 
+{}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(varf=test.in;(open(varf);(int varc;(read(varc,varf);(print(varc);(read(varc,varf);(print(varc);close(varf)))))))), string varf]
+---SymTable--- 
+{}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(varf=test.in;(open(varf);(int varc;(read(varc,varf);(print(varc);(read(varc,varf);(print(varc);close(varf)))))))), string varf]
+---SymTable--- 
+{}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(varf=test.in;(open(varf);(int varc;(read(varc,varf);(print(varc);(read(varc,varf);(print(varc);close(varf))))))))]
+---SymTable--- 
+{varf=}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(varf=test.in;(open(varf);(int varc;(read(varc,varf);(print(varc);(read(varc,varf);(print(varc);close(varf))))))))]
+---SymTable--- 
+{varf=}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(varf=test.in;(open(varf);(int varc;(read(varc,varf);(print(varc);(read(varc,varf);(print(varc);close(varf))))))))]
+---SymTable--- 
+{varf=}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(open(varf);(int varc;(read(varc,varf);(print(varc);(read(varc,varf);(print(varc);close(varf))))))), varf=test.in]
+---SymTable--- 
+{varf=}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(open(varf);(int varc;(read(varc,varf);(print(varc);(read(varc,varf);(print(varc);close(varf))))))), varf=test.in]
+---SymTable--- 
+{varf=}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(open(varf);(int varc;(read(varc,varf);(print(varc);(read(varc,varf);(print(varc);close(varf))))))), varf=test.in]
+---SymTable--- 
+{varf=}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(open(varf);(int varc;(read(varc,varf);(print(varc);(read(varc,varf);(print(varc);close(varf)))))))]
+---SymTable--- 
+{varf=test.in}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(open(varf);(int varc;(read(varc,varf);(print(varc);(read(varc,varf);(print(varc);close(varf)))))))]
+---SymTable--- 
+{varf=test.in}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(open(varf);(int varc;(read(varc,varf);(print(varc);(read(varc,varf);(print(varc);close(varf)))))))]
+---SymTable--- 
+{varf=test.in}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(int varc;(read(varc,varf);(print(varc);(read(varc,varf);(print(varc);close(varf)))))), open(varf)]
+---SymTable--- 
+{varf=test.in}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(int varc;(read(varc,varf);(print(varc);(read(varc,varf);(print(varc);close(varf)))))), open(varf)]
+---SymTable--- 
+{varf=test.in}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(int varc;(read(varc,varf);(print(varc);(read(varc,varf);(print(varc);close(varf)))))), open(varf)]
+---SymTable--- 
+{varf=test.in}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(int varc;(read(varc,varf);(print(varc);(read(varc,varf);(print(varc);close(varf))))))]
+---SymTable--- 
+{varf=test.in}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(int varc;(read(varc,varf);(print(varc);(read(varc,varf);(print(varc);close(varf))))))]
+---SymTable--- 
+{varf=test.in}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(int varc;(read(varc,varf);(print(varc);(read(varc,varf);(print(varc);close(varf))))))]
+---SymTable--- 
+{varf=test.in}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(read(varc,varf);(print(varc);(read(varc,varf);(print(varc);close(varf))))), int varc]
+---SymTable--- 
+{varf=test.in}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(read(varc,varf);(print(varc);(read(varc,varf);(print(varc);close(varf))))), int varc]
+---SymTable--- 
+{varf=test.in}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(read(varc,varf);(print(varc);(read(varc,varf);(print(varc);close(varf))))), int varc]
+---SymTable--- 
+{varf=test.in}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(read(varc,varf);(print(varc);(read(varc,varf);(print(varc);close(varf)))))]
+---SymTable--- 
+{varf=test.in, varc=0}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(read(varc,varf);(print(varc);(read(varc,varf);(print(varc);close(varf)))))]
+---SymTable--- 
+{varf=test.in, varc=0}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(read(varc,varf);(print(varc);(read(varc,varf);(print(varc);close(varf)))))]
+---SymTable--- 
+{varf=test.in, varc=0}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(print(varc);(read(varc,varf);(print(varc);close(varf)))), read(varc,varf)]
+---SymTable--- 
+{varf=test.in, varc=0}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(print(varc);(read(varc,varf);(print(varc);close(varf)))), read(varc,varf)]
+---SymTable--- 
+{varf=test.in, varc=0}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(print(varc);(read(varc,varf);(print(varc);close(varf)))), read(varc,varf)]
+---SymTable--- 
+{varf=test.in, varc=0}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(print(varc);(read(varc,varf);(print(varc);close(varf))))]
+---SymTable--- 
+{varf=test.in, varc=0}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(print(varc);(read(varc,varf);(print(varc);close(varf))))]
+---SymTable--- 
+{varf=test.in, varc=0}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(print(varc);(read(varc,varf);(print(varc);close(varf))))]
+---SymTable--- 
+{varf=test.in, varc=0}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(read(varc,varf);(print(varc);close(varf))), print(varc)]
+---SymTable--- 
+{varf=test.in, varc=0}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(read(varc,varf);(print(varc);close(varf))), print(varc)]
+---SymTable--- 
+{varf=test.in, varc=0}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(read(varc,varf);(print(varc);close(varf))), print(varc)]
+---SymTable--- 
+{varf=test.in, varc=0}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(read(varc,varf);(print(varc);close(varf)))]
+---SymTable--- 
+{varf=test.in, varc=0}
+---OutList--- 
+[0]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(read(varc,varf);(print(varc);close(varf)))]
+---SymTable--- 
+{varf=test.in, varc=0}
+---OutList--- 
+[0]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(read(varc,varf);(print(varc);close(varf)))]
+---SymTable--- 
+{varf=test.in, varc=0}
+---OutList--- 
+[0]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(print(varc);close(varf)), read(varc,varf)]
+---SymTable--- 
+{varf=test.in, varc=0}
+---OutList--- 
+[0]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(print(varc);close(varf)), read(varc,varf)]
+---SymTable--- 
+{varf=test.in, varc=0}
+---OutList--- 
+[0]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(print(varc);close(varf)), read(varc,varf)]
+---SymTable--- 
+{varf=test.in, varc=0}
+---OutList--- 
+[0]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(print(varc);close(varf))]
+---SymTable--- 
+{varf=test.in, varc=0}
+---OutList--- 
+[0]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(print(varc);close(varf))]
+---SymTable--- 
+{varf=test.in, varc=0}
+---OutList--- 
+[0]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(print(varc);close(varf))]
+---SymTable--- 
+{varf=test.in, varc=0}
+---OutList--- 
+[0]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[close(varf), print(varc)]
+---SymTable--- 
+{varf=test.in, varc=0}
+---OutList--- 
+[0]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[close(varf), print(varc)]
+---SymTable--- 
+{varf=test.in, varc=0}
+---OutList--- 
+[0]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[close(varf), print(varc)]
+---SymTable--- 
+{varf=test.in, varc=0}
+---OutList--- 
+[0]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[close(varf)]
+---SymTable--- 
+{varf=test.in, varc=0}
+---OutList--- 
+[0, 0]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[close(varf)]
+---SymTable--- 
+{varf=test.in, varc=0}
+---OutList--- 
+[0, 0]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[close(varf)]
+---SymTable--- 
+{varf=test.in, varc=0}
+---OutList--- 
+[0, 0]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[]
+---SymTable--- 
+{varf=test.in, varc=0}
+---OutList--- 
+[0, 0]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[]
+---SymTable--- 
+{varf=test.in, varc=0}
+---OutList--- 
+[0, 0]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(string varf;(varf=test.in;(open(varf);(int varc;(read(varc,varf);(print(varc);(read(varc,varf);(print(varc);close(varf)))))))))]
+---SymTable--- 
+{}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(varf=test.in;(open(varf);(int varc;(read(varc,varf);(print(varc);(read(varc,varf);(print(varc);close(varf)))))))), string varf]
+---SymTable--- 
+{}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(varf=test.in;(open(varf);(int varc;(read(varc,varf);(print(varc);(read(varc,varf);(print(varc);close(varf)))))))), string varf]
+---SymTable--- 
+{}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(varf=test.in;(open(varf);(int varc;(read(varc,varf);(print(varc);(read(varc,varf);(print(varc);close(varf)))))))), string varf]
+---SymTable--- 
+{}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(varf=test.in;(open(varf);(int varc;(read(varc,varf);(print(varc);(read(varc,varf);(print(varc);close(varf))))))))]
+---SymTable--- 
+{varf=}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(varf=test.in;(open(varf);(int varc;(read(varc,varf);(print(varc);(read(varc,varf);(print(varc);close(varf))))))))]
+---SymTable--- 
+{varf=}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(varf=test.in;(open(varf);(int varc;(read(varc,varf);(print(varc);(read(varc,varf);(print(varc);close(varf))))))))]
+---SymTable--- 
+{varf=}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(open(varf);(int varc;(read(varc,varf);(print(varc);(read(varc,varf);(print(varc);close(varf))))))), varf=test.in]
+---SymTable--- 
+{varf=}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(open(varf);(int varc;(read(varc,varf);(print(varc);(read(varc,varf);(print(varc);close(varf))))))), varf=test.in]
+---SymTable--- 
+{varf=}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(open(varf);(int varc;(read(varc,varf);(print(varc);(read(varc,varf);(print(varc);close(varf))))))), varf=test.in]
+---SymTable--- 
+{varf=}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(open(varf);(int varc;(read(varc,varf);(print(varc);(read(varc,varf);(print(varc);close(varf)))))))]
+---SymTable--- 
+{varf=test.in}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(open(varf);(int varc;(read(varc,varf);(print(varc);(read(varc,varf);(print(varc);close(varf)))))))]
+---SymTable--- 
+{varf=test.in}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(open(varf);(int varc;(read(varc,varf);(print(varc);(read(varc,varf);(print(varc);close(varf)))))))]
+---SymTable--- 
+{varf=test.in}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(int varc;(read(varc,varf);(print(varc);(read(varc,varf);(print(varc);close(varf)))))), open(varf)]
+---SymTable--- 
+{varf=test.in}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(int varc;(read(varc,varf);(print(varc);(read(varc,varf);(print(varc);close(varf)))))), open(varf)]
+---SymTable--- 
+{varf=test.in}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(int varc;(read(varc,varf);(print(varc);(read(varc,varf);(print(varc);close(varf)))))), open(varf)]
+---SymTable--- 
+{varf=test.in}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(int varc;(read(varc,varf);(print(varc);(read(varc,varf);(print(varc);close(varf))))))]
+---SymTable--- 
+{varf=test.in}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{test.in=java.io.BufferedReader@5ffd48dd}
+
+
+Program ID is 1
+---ExeStack--- 
+[(int varc;(read(varc,varf);(print(varc);(read(varc,varf);(print(varc);close(varf))))))]
+---SymTable--- 
+{varf=test.in}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{test.in=java.io.BufferedReader@5ffd48dd}
+
+
+Program ID is 1
+---ExeStack--- 
+[(int varc;(read(varc,varf);(print(varc);(read(varc,varf);(print(varc);close(varf))))))]
+---SymTable--- 
+{varf=test.in}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{test.in=java.io.BufferedReader@5ffd48dd}
+
+
+Program ID is 1
+---ExeStack--- 
+[(read(varc,varf);(print(varc);(read(varc,varf);(print(varc);close(varf))))), int varc]
+---SymTable--- 
+{varf=test.in}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{test.in=java.io.BufferedReader@5ffd48dd}
+
+
+Program ID is 1
+---ExeStack--- 
+[(read(varc,varf);(print(varc);(read(varc,varf);(print(varc);close(varf))))), int varc]
+---SymTable--- 
+{varf=test.in}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{test.in=java.io.BufferedReader@5ffd48dd}
+
+
+Program ID is 1
+---ExeStack--- 
+[(read(varc,varf);(print(varc);(read(varc,varf);(print(varc);close(varf))))), int varc]
+---SymTable--- 
+{varf=test.in}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{test.in=java.io.BufferedReader@5ffd48dd}
+
+
+Program ID is 1
+---ExeStack--- 
+[(read(varc,varf);(print(varc);(read(varc,varf);(print(varc);close(varf)))))]
+---SymTable--- 
+{varf=test.in, varc=0}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{test.in=java.io.BufferedReader@5ffd48dd}
+
+
+Program ID is 1
+---ExeStack--- 
+[(read(varc,varf);(print(varc);(read(varc,varf);(print(varc);close(varf)))))]
+---SymTable--- 
+{varf=test.in, varc=0}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{test.in=java.io.BufferedReader@5ffd48dd}
+
+
+Program ID is 1
+---ExeStack--- 
+[(read(varc,varf);(print(varc);(read(varc,varf);(print(varc);close(varf)))))]
+---SymTable--- 
+{varf=test.in, varc=0}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{test.in=java.io.BufferedReader@5ffd48dd}
+
+
+Program ID is 1
+---ExeStack--- 
+[(print(varc);(read(varc,varf);(print(varc);close(varf)))), read(varc,varf)]
+---SymTable--- 
+{varf=test.in, varc=0}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{test.in=java.io.BufferedReader@5ffd48dd}
+
+
+Program ID is 1
+---ExeStack--- 
+[(print(varc);(read(varc,varf);(print(varc);close(varf)))), read(varc,varf)]
+---SymTable--- 
+{varf=test.in, varc=0}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{test.in=java.io.BufferedReader@5ffd48dd}
+
+
+Program ID is 1
+---ExeStack--- 
+[(print(varc);(read(varc,varf);(print(varc);close(varf)))), read(varc,varf)]
+---SymTable--- 
+{varf=test.in, varc=0}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{test.in=java.io.BufferedReader@5ffd48dd}
+
+
+Program ID is 1
+---ExeStack--- 
+[(print(varc);(read(varc,varf);(print(varc);close(varf))))]
+---SymTable--- 
+{varf=test.in, varc=15}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{test.in=java.io.BufferedReader@5ffd48dd}
+
+
+Program ID is 1
+---ExeStack--- 
+[(print(varc);(read(varc,varf);(print(varc);close(varf))))]
+---SymTable--- 
+{varf=test.in, varc=15}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{test.in=java.io.BufferedReader@5ffd48dd}
+
+
+Program ID is 1
+---ExeStack--- 
+[(print(varc);(read(varc,varf);(print(varc);close(varf))))]
+---SymTable--- 
+{varf=test.in, varc=15}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{test.in=java.io.BufferedReader@5ffd48dd}
+
+
+Program ID is 1
+---ExeStack--- 
+[(read(varc,varf);(print(varc);close(varf))), print(varc)]
+---SymTable--- 
+{varf=test.in, varc=15}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{test.in=java.io.BufferedReader@5ffd48dd}
+
+
+Program ID is 1
+---ExeStack--- 
+[(read(varc,varf);(print(varc);close(varf))), print(varc)]
+---SymTable--- 
+{varf=test.in, varc=15}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{test.in=java.io.BufferedReader@5ffd48dd}
+
+
+Program ID is 1
+---ExeStack--- 
+[(read(varc,varf);(print(varc);close(varf))), print(varc)]
+---SymTable--- 
+{varf=test.in, varc=15}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{test.in=java.io.BufferedReader@5ffd48dd}
+
+
+Program ID is 1
+---ExeStack--- 
+[(read(varc,varf);(print(varc);close(varf)))]
+---SymTable--- 
+{varf=test.in, varc=15}
+---OutList--- 
+[15]
+---Heap---- 
+{}
+---FileTable--- 
+{test.in=java.io.BufferedReader@5ffd48dd}
+
+
+Program ID is 1
+---ExeStack--- 
+[(read(varc,varf);(print(varc);close(varf)))]
+---SymTable--- 
+{varf=test.in, varc=15}
+---OutList--- 
+[15]
+---Heap---- 
+{}
+---FileTable--- 
+{test.in=java.io.BufferedReader@5ffd48dd}
+
+
+Program ID is 1
+---ExeStack--- 
+[(read(varc,varf);(print(varc);close(varf)))]
+---SymTable--- 
+{varf=test.in, varc=15}
+---OutList--- 
+[15]
+---Heap---- 
+{}
+---FileTable--- 
+{test.in=java.io.BufferedReader@5ffd48dd}
+
+
+Program ID is 1
+---ExeStack--- 
+[(print(varc);close(varf)), read(varc,varf)]
+---SymTable--- 
+{varf=test.in, varc=15}
+---OutList--- 
+[15]
+---Heap---- 
+{}
+---FileTable--- 
+{test.in=java.io.BufferedReader@5ffd48dd}
+
+
+Program ID is 1
+---ExeStack--- 
+[(print(varc);close(varf)), read(varc,varf)]
+---SymTable--- 
+{varf=test.in, varc=15}
+---OutList--- 
+[15]
+---Heap---- 
+{}
+---FileTable--- 
+{test.in=java.io.BufferedReader@5ffd48dd}
+
+
+Program ID is 1
+---ExeStack--- 
+[(print(varc);close(varf)), read(varc,varf)]
+---SymTable--- 
+{varf=test.in, varc=15}
+---OutList--- 
+[15]
+---Heap---- 
+{}
+---FileTable--- 
+{test.in=java.io.BufferedReader@5ffd48dd}
+
+
+Program ID is 1
+---ExeStack--- 
+[(print(varc);close(varf))]
+---SymTable--- 
+{varf=test.in, varc=50}
+---OutList--- 
+[15]
+---Heap---- 
+{}
+---FileTable--- 
+{test.in=java.io.BufferedReader@5ffd48dd}
+
+
+Program ID is 1
+---ExeStack--- 
+[(print(varc);close(varf))]
+---SymTable--- 
+{varf=test.in, varc=50}
+---OutList--- 
+[15]
+---Heap---- 
+{}
+---FileTable--- 
+{test.in=java.io.BufferedReader@5ffd48dd}
+
+
+Program ID is 1
+---ExeStack--- 
+[(print(varc);close(varf))]
+---SymTable--- 
+{varf=test.in, varc=50}
+---OutList--- 
+[15]
+---Heap---- 
+{}
+---FileTable--- 
+{test.in=java.io.BufferedReader@5ffd48dd}
+
+
+Program ID is 1
+---ExeStack--- 
+[close(varf), print(varc)]
+---SymTable--- 
+{varf=test.in, varc=50}
+---OutList--- 
+[15]
+---Heap---- 
+{}
+---FileTable--- 
+{test.in=java.io.BufferedReader@5ffd48dd}
+
+
+Program ID is 1
+---ExeStack--- 
+[close(varf), print(varc)]
+---SymTable--- 
+{varf=test.in, varc=50}
+---OutList--- 
+[15]
+---Heap---- 
+{}
+---FileTable--- 
+{test.in=java.io.BufferedReader@5ffd48dd}
+
+
+Program ID is 1
+---ExeStack--- 
+[close(varf), print(varc)]
+---SymTable--- 
+{varf=test.in, varc=50}
+---OutList--- 
+[15]
+---Heap---- 
+{}
+---FileTable--- 
+{test.in=java.io.BufferedReader@5ffd48dd}
+
+
+Program ID is 1
+---ExeStack--- 
+[close(varf)]
+---SymTable--- 
+{varf=test.in, varc=50}
+---OutList--- 
+[15, 50]
+---Heap---- 
+{}
+---FileTable--- 
+{test.in=java.io.BufferedReader@5ffd48dd}
+
+
+Program ID is 1
+---ExeStack--- 
+[close(varf)]
+---SymTable--- 
+{varf=test.in, varc=50}
+---OutList--- 
+[15, 50]
+---Heap---- 
+{}
+---FileTable--- 
+{test.in=java.io.BufferedReader@5ffd48dd}
+
+
+Program ID is 1
+---ExeStack--- 
+[close(varf)]
+---SymTable--- 
+{varf=test.in, varc=50}
+---OutList--- 
+[15, 50]
+---Heap---- 
+{}
+---FileTable--- 
+{test.in=java.io.BufferedReader@5ffd48dd}
+
+
+Program ID is 1
+---ExeStack--- 
+[]
+---SymTable--- 
+{varf=test.in, varc=50}
+---OutList--- 
+[15, 50]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[]
+---SymTable--- 
+{varf=test.in, varc=50}
+---OutList--- 
+[15, 50]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+

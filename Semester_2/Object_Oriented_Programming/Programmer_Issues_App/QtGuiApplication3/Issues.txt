@@ -1,0 +1,5 @@
+asd,closed,Petre,Marin
+fds,closed,Petre,Marin
+boala pe bagabonti,open,Petre,Marin
+opt,open,Petre,
+sase,open,Petre,

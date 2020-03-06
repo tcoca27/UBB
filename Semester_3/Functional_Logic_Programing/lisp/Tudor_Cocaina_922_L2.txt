@@ -1,0 +1,84 @@
+;gnu clisp 2.49
+
+;;;6. Return the list of nodes of a tree of type (1) accessed inorder. 
+
+;;;get_left_child(l1...ln)=
+;;;			   [], if n=0
+;;;			   l3...ln, if l2>0
+
+
+(defun get_left_sub(tree)
+
+    (cond
+
+        ((null tree) nil)
+
+        ((> (cadr tree) 0) (cddr tree))
+
+        (t nil)
+
+        )
+
+)
+
+
+;;;get_left_child(l1...ln)=
+;;;			   [], if n=0
+;;;			   l5...ln, if l2=2 
+
+;get right child of a tree
+;;;get_right_sub(t1...tn c d last lastnr checker)= [last,lastnr], d=0 and lastnr!=-1 and checker==1
+;;;                     nil, d=0
+;;;                     get_right_sub(t3...tn (c-1+t2) (c-1) t1 t2 1), t2=2
+;;;                     get_right_sub(t3...tn (c-1+t2) (c-1) t1 t2 1), checker=1
+;;;                     get_right_sub(t3...tn (c-1+t2) (c-1) t1 t2 0), otherwise
+
+(defun get_right_sub(tree c d last lastnr checker)
+
+    (cond
+
+        ((AND (= d 0) (/= lastnr -1) (= checker 1)) (cons last (cons lastnr tree)))
+        
+        ((= d 0) nil)
+        
+        ((AND (atom (car tree))(= 2 (cadr tree)))(get_right_sub (cddr tree) (+ (- c 1) (cadr tree)) (- c 1) (car tree) (cadr tree) 1)) ;(get_right_sub (cddr tree) (+ (- c 1) (cadr tree)) (car tree)))
+        
+        ((AND (atom (car tree))(= 1 checker))(get_right_sub (cddr tree) (+ (- c 1) (cadr tree)) (- c 1) (car tree) (cadr tree) 1))
+        
+        ((atom (car tree))(get_right_sub (cddr tree) (+ (- c 1) (cadr tree)) (- c 1) (car tree) (cadr tree) 0))
+        
+        )
+
+)
+
+;(print (get_right_sub (cddr '(A 2 B 2 C 0 D 0 E 1 F 0)) (cadr '(A 2 B 2 C 0 D 0 E 1 F 0)) (cadr '(A 2 B 2 C 0 D 0 E 1 F 0)) nil 0))
+
+(defun get_right(tree)
+    (cond
+        ((= (cadr tree) 2)(get_right_sub (cddr tree) (cadr tree) (cadr tree) nil -1 1))
+        (t (get_right_sub (cddr tree) (cadr tree) (cadr tree) nil -1 0))
+    )
+)
+
+;;;inorder traversal(l1..ln)=
+;;;				tree, n=0
+;;;				inorder(get_left(tree)) U l1 U inorder(get_right(tree))
+
+;inorder traversal
+
+(defun inorder_traversal(tree)
+
+    (cond
+
+        ((null tree) tree)
+
+        (t  (append (inorder_traversal (get_left_sub tree)) (list (car tree)) (inorder_traversal (get_right tree))))
+
+        )
+
+    )
+
+(print (inorder_traversal '(A 2 B 0 C 2 D 0 E 0) ))
+(print (inorder_traversal '(A 2 B 2 C 0 D 0 E 2 F 0 H 0)))
+
+

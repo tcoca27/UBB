@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/UBB/SDA/BagOpenAdressing/BagIterator.h
+BagOpenAdressing.h
+C:/UBB/SDA/BagOpenAdressing/BagOpenAdressing.h
+
+C:/UBB/SDA/BagOpenAdressing/BagOpenAdressing.cpp
+BagOpenAdressing.h
+C:/UBB/SDA/BagOpenAdressing/BagOpenAdressing.h
+BagIterator.h
+C:/UBB/SDA/BagOpenAdressing/BagIterator.h
+stdlib.h
+-
+stdint.h
+-
+
+C:/UBB/SDA/BagOpenAdressing/BagOpenAdressing.h
+stdint-gcc.h
+-
+

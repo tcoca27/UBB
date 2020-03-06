@@ -1,0 +1,2691 @@
+Program ID is 1
+---ExeStack--- 
+[(int v;(v=4;(while(v>0)(print(v);v=v-1);print(v))))]
+---SymTable--- 
+{}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(v=4;(while(v>0)(print(v);v=v-1);print(v))), int v]
+---SymTable--- 
+{}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(v=4;(while(v>0)(print(v);v=v-1);print(v))), int v]
+---SymTable--- 
+{}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(v=4;(while(v>0)(print(v);v=v-1);print(v))), int v]
+---SymTable--- 
+{}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(v=4;(while(v>0)(print(v);v=v-1);print(v)))]
+---SymTable--- 
+{v=0}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(v=4;(while(v>0)(print(v);v=v-1);print(v)))]
+---SymTable--- 
+{v=0}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(v=4;(while(v>0)(print(v);v=v-1);print(v)))]
+---SymTable--- 
+{v=0}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(while(v>0)(print(v);v=v-1);print(v)), v=4]
+---SymTable--- 
+{v=0}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(while(v>0)(print(v);v=v-1);print(v)), v=4]
+---SymTable--- 
+{v=0}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(while(v>0)(print(v);v=v-1);print(v)), v=4]
+---SymTable--- 
+{v=0}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(while(v>0)(print(v);v=v-1);print(v))]
+---SymTable--- 
+{v=4}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(while(v>0)(print(v);v=v-1);print(v))]
+---SymTable--- 
+{v=4}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(while(v>0)(print(v);v=v-1);print(v))]
+---SymTable--- 
+{v=4}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1)]
+---SymTable--- 
+{v=4}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1)]
+---SymTable--- 
+{v=4}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1)]
+---SymTable--- 
+{v=4}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1), (print(v);v=v-1)]
+---SymTable--- 
+{v=4}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1), (print(v);v=v-1)]
+---SymTable--- 
+{v=4}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1), (print(v);v=v-1)]
+---SymTable--- 
+{v=4}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1), v=v-1, print(v)]
+---SymTable--- 
+{v=4}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1), v=v-1, print(v)]
+---SymTable--- 
+{v=4}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1), v=v-1, print(v)]
+---SymTable--- 
+{v=4}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1), v=v-1]
+---SymTable--- 
+{v=4}
+---OutList--- 
+[4]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1), v=v-1]
+---SymTable--- 
+{v=4}
+---OutList--- 
+[4]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1), v=v-1]
+---SymTable--- 
+{v=4}
+---OutList--- 
+[4]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1)]
+---SymTable--- 
+{v=3}
+---OutList--- 
+[4]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1)]
+---SymTable--- 
+{v=3}
+---OutList--- 
+[4]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1)]
+---SymTable--- 
+{v=3}
+---OutList--- 
+[4]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1), (print(v);v=v-1)]
+---SymTable--- 
+{v=3}
+---OutList--- 
+[4]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1), (print(v);v=v-1)]
+---SymTable--- 
+{v=3}
+---OutList--- 
+[4]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1), (print(v);v=v-1)]
+---SymTable--- 
+{v=3}
+---OutList--- 
+[4]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1), v=v-1, print(v)]
+---SymTable--- 
+{v=3}
+---OutList--- 
+[4]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1), v=v-1, print(v)]
+---SymTable--- 
+{v=3}
+---OutList--- 
+[4]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1), v=v-1, print(v)]
+---SymTable--- 
+{v=3}
+---OutList--- 
+[4]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1), v=v-1]
+---SymTable--- 
+{v=3}
+---OutList--- 
+[4, 3]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1), v=v-1]
+---SymTable--- 
+{v=3}
+---OutList--- 
+[4, 3]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1), v=v-1]
+---SymTable--- 
+{v=3}
+---OutList--- 
+[4, 3]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1)]
+---SymTable--- 
+{v=2}
+---OutList--- 
+[4, 3]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1)]
+---SymTable--- 
+{v=2}
+---OutList--- 
+[4, 3]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1)]
+---SymTable--- 
+{v=2}
+---OutList--- 
+[4, 3]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1), (print(v);v=v-1)]
+---SymTable--- 
+{v=2}
+---OutList--- 
+[4, 3]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1), (print(v);v=v-1)]
+---SymTable--- 
+{v=2}
+---OutList--- 
+[4, 3]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1), (print(v);v=v-1)]
+---SymTable--- 
+{v=2}
+---OutList--- 
+[4, 3]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1), v=v-1, print(v)]
+---SymTable--- 
+{v=2}
+---OutList--- 
+[4, 3]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1), v=v-1, print(v)]
+---SymTable--- 
+{v=2}
+---OutList--- 
+[4, 3]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1), v=v-1, print(v)]
+---SymTable--- 
+{v=2}
+---OutList--- 
+[4, 3]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1), v=v-1]
+---SymTable--- 
+{v=2}
+---OutList--- 
+[4, 3, 2]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1), v=v-1]
+---SymTable--- 
+{v=2}
+---OutList--- 
+[4, 3, 2]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1), v=v-1]
+---SymTable--- 
+{v=2}
+---OutList--- 
+[4, 3, 2]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1)]
+---SymTable--- 
+{v=1}
+---OutList--- 
+[4, 3, 2]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1)]
+---SymTable--- 
+{v=1}
+---OutList--- 
+[4, 3, 2]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1)]
+---SymTable--- 
+{v=1}
+---OutList--- 
+[4, 3, 2]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1), (print(v);v=v-1)]
+---SymTable--- 
+{v=1}
+---OutList--- 
+[4, 3, 2]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1), (print(v);v=v-1)]
+---SymTable--- 
+{v=1}
+---OutList--- 
+[4, 3, 2]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1), (print(v);v=v-1)]
+---SymTable--- 
+{v=1}
+---OutList--- 
+[4, 3, 2]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1), v=v-1, print(v)]
+---SymTable--- 
+{v=1}
+---OutList--- 
+[4, 3, 2]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1), v=v-1, print(v)]
+---SymTable--- 
+{v=1}
+---OutList--- 
+[4, 3, 2]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1), v=v-1, print(v)]
+---SymTable--- 
+{v=1}
+---OutList--- 
+[4, 3, 2]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1), v=v-1]
+---SymTable--- 
+{v=1}
+---OutList--- 
+[4, 3, 2, 1]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1), v=v-1]
+---SymTable--- 
+{v=1}
+---OutList--- 
+[4, 3, 2, 1]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1), v=v-1]
+---SymTable--- 
+{v=1}
+---OutList--- 
+[4, 3, 2, 1]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1)]
+---SymTable--- 
+{v=0}
+---OutList--- 
+[4, 3, 2, 1]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1)]
+---SymTable--- 
+{v=0}
+---OutList--- 
+[4, 3, 2, 1]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1)]
+---SymTable--- 
+{v=0}
+---OutList--- 
+[4, 3, 2, 1]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v)]
+---SymTable--- 
+{v=0}
+---OutList--- 
+[4, 3, 2, 1]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v)]
+---SymTable--- 
+{v=0}
+---OutList--- 
+[4, 3, 2, 1]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v)]
+---SymTable--- 
+{v=0}
+---OutList--- 
+[4, 3, 2, 1]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[]
+---SymTable--- 
+{v=0}
+---OutList--- 
+[4, 3, 2, 1, 0]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[]
+---SymTable--- 
+{v=0}
+---OutList--- 
+[4, 3, 2, 1, 0]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(int v;(v=4;(while(v>0)(print(v);v=v-1);print(v))))]
+---SymTable--- 
+{}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(v=4;(while(v>0)(print(v);v=v-1);print(v))), int v]
+---SymTable--- 
+{}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(v=4;(while(v>0)(print(v);v=v-1);print(v))), int v]
+---SymTable--- 
+{}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(v=4;(while(v>0)(print(v);v=v-1);print(v))), int v]
+---SymTable--- 
+{}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(v=4;(while(v>0)(print(v);v=v-1);print(v)))]
+---SymTable--- 
+{v=0}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(v=4;(while(v>0)(print(v);v=v-1);print(v)))]
+---SymTable--- 
+{v=0}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(v=4;(while(v>0)(print(v);v=v-1);print(v)))]
+---SymTable--- 
+{v=0}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(while(v>0)(print(v);v=v-1);print(v)), v=4]
+---SymTable--- 
+{v=0}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(while(v>0)(print(v);v=v-1);print(v)), v=4]
+---SymTable--- 
+{v=0}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(while(v>0)(print(v);v=v-1);print(v)), v=4]
+---SymTable--- 
+{v=0}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(while(v>0)(print(v);v=v-1);print(v))]
+---SymTable--- 
+{v=4}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(while(v>0)(print(v);v=v-1);print(v))]
+---SymTable--- 
+{v=4}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(while(v>0)(print(v);v=v-1);print(v))]
+---SymTable--- 
+{v=4}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1)]
+---SymTable--- 
+{v=4}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1)]
+---SymTable--- 
+{v=4}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1)]
+---SymTable--- 
+{v=4}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1), (print(v);v=v-1)]
+---SymTable--- 
+{v=4}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1), (print(v);v=v-1)]
+---SymTable--- 
+{v=4}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1), (print(v);v=v-1)]
+---SymTable--- 
+{v=4}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1), v=v-1, print(v)]
+---SymTable--- 
+{v=4}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1), v=v-1, print(v)]
+---SymTable--- 
+{v=4}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1), v=v-1, print(v)]
+---SymTable--- 
+{v=4}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1), v=v-1]
+---SymTable--- 
+{v=4}
+---OutList--- 
+[4]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1), v=v-1]
+---SymTable--- 
+{v=4}
+---OutList--- 
+[4]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1), v=v-1]
+---SymTable--- 
+{v=4}
+---OutList--- 
+[4]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1)]
+---SymTable--- 
+{v=3}
+---OutList--- 
+[4]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1)]
+---SymTable--- 
+{v=3}
+---OutList--- 
+[4]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1)]
+---SymTable--- 
+{v=3}
+---OutList--- 
+[4]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1), (print(v);v=v-1)]
+---SymTable--- 
+{v=3}
+---OutList--- 
+[4]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1), (print(v);v=v-1)]
+---SymTable--- 
+{v=3}
+---OutList--- 
+[4]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1), (print(v);v=v-1)]
+---SymTable--- 
+{v=3}
+---OutList--- 
+[4]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1), v=v-1, print(v)]
+---SymTable--- 
+{v=3}
+---OutList--- 
+[4]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1), v=v-1, print(v)]
+---SymTable--- 
+{v=3}
+---OutList--- 
+[4]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1), v=v-1, print(v)]
+---SymTable--- 
+{v=3}
+---OutList--- 
+[4]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1), v=v-1]
+---SymTable--- 
+{v=3}
+---OutList--- 
+[4, 3]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1), v=v-1]
+---SymTable--- 
+{v=3}
+---OutList--- 
+[4, 3]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1), v=v-1]
+---SymTable--- 
+{v=3}
+---OutList--- 
+[4, 3]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1)]
+---SymTable--- 
+{v=2}
+---OutList--- 
+[4, 3]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1)]
+---SymTable--- 
+{v=2}
+---OutList--- 
+[4, 3]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1)]
+---SymTable--- 
+{v=2}
+---OutList--- 
+[4, 3]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1), (print(v);v=v-1)]
+---SymTable--- 
+{v=2}
+---OutList--- 
+[4, 3]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1), (print(v);v=v-1)]
+---SymTable--- 
+{v=2}
+---OutList--- 
+[4, 3]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1), (print(v);v=v-1)]
+---SymTable--- 
+{v=2}
+---OutList--- 
+[4, 3]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1), v=v-1, print(v)]
+---SymTable--- 
+{v=2}
+---OutList--- 
+[4, 3]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1), v=v-1, print(v)]
+---SymTable--- 
+{v=2}
+---OutList--- 
+[4, 3]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1), v=v-1, print(v)]
+---SymTable--- 
+{v=2}
+---OutList--- 
+[4, 3]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1), v=v-1]
+---SymTable--- 
+{v=2}
+---OutList--- 
+[4, 3, 2]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1), v=v-1]
+---SymTable--- 
+{v=2}
+---OutList--- 
+[4, 3, 2]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1), v=v-1]
+---SymTable--- 
+{v=2}
+---OutList--- 
+[4, 3, 2]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1)]
+---SymTable--- 
+{v=1}
+---OutList--- 
+[4, 3, 2]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1)]
+---SymTable--- 
+{v=1}
+---OutList--- 
+[4, 3, 2]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1)]
+---SymTable--- 
+{v=1}
+---OutList--- 
+[4, 3, 2]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1), (print(v);v=v-1)]
+---SymTable--- 
+{v=1}
+---OutList--- 
+[4, 3, 2]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1), (print(v);v=v-1)]
+---SymTable--- 
+{v=1}
+---OutList--- 
+[4, 3, 2]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1), (print(v);v=v-1)]
+---SymTable--- 
+{v=1}
+---OutList--- 
+[4, 3, 2]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1), v=v-1, print(v)]
+---SymTable--- 
+{v=1}
+---OutList--- 
+[4, 3, 2]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1), v=v-1, print(v)]
+---SymTable--- 
+{v=1}
+---OutList--- 
+[4, 3, 2]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1), v=v-1, print(v)]
+---SymTable--- 
+{v=1}
+---OutList--- 
+[4, 3, 2]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1), v=v-1]
+---SymTable--- 
+{v=1}
+---OutList--- 
+[4, 3, 2, 1]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1), v=v-1]
+---SymTable--- 
+{v=1}
+---OutList--- 
+[4, 3, 2, 1]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1), v=v-1]
+---SymTable--- 
+{v=1}
+---OutList--- 
+[4, 3, 2, 1]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1)]
+---SymTable--- 
+{v=0}
+---OutList--- 
+[4, 3, 2, 1]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1)]
+---SymTable--- 
+{v=0}
+---OutList--- 
+[4, 3, 2, 1]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1)]
+---SymTable--- 
+{v=0}
+---OutList--- 
+[4, 3, 2, 1]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v)]
+---SymTable--- 
+{v=0}
+---OutList--- 
+[4, 3, 2, 1]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v)]
+---SymTable--- 
+{v=0}
+---OutList--- 
+[4, 3, 2, 1]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v)]
+---SymTable--- 
+{v=0}
+---OutList--- 
+[4, 3, 2, 1]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[]
+---SymTable--- 
+{v=0}
+---OutList--- 
+[4, 3, 2, 1, 0]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[]
+---SymTable--- 
+{v=0}
+---OutList--- 
+[4, 3, 2, 1, 0]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(int v;(v=4;(while(v>0)(print(v);v=v-1);print(v))))]
+---SymTable--- 
+{}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(v=4;(while(v>0)(print(v);v=v-1);print(v))), int v]
+---SymTable--- 
+{}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(v=4;(while(v>0)(print(v);v=v-1);print(v))), int v]
+---SymTable--- 
+{}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(v=4;(while(v>0)(print(v);v=v-1);print(v))), int v]
+---SymTable--- 
+{}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(v=4;(while(v>0)(print(v);v=v-1);print(v)))]
+---SymTable--- 
+{v=0}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(v=4;(while(v>0)(print(v);v=v-1);print(v)))]
+---SymTable--- 
+{v=0}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(v=4;(while(v>0)(print(v);v=v-1);print(v)))]
+---SymTable--- 
+{v=0}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(while(v>0)(print(v);v=v-1);print(v)), v=4]
+---SymTable--- 
+{v=0}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(while(v>0)(print(v);v=v-1);print(v)), v=4]
+---SymTable--- 
+{v=0}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(while(v>0)(print(v);v=v-1);print(v)), v=4]
+---SymTable--- 
+{v=0}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(while(v>0)(print(v);v=v-1);print(v))]
+---SymTable--- 
+{v=4}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(while(v>0)(print(v);v=v-1);print(v))]
+---SymTable--- 
+{v=4}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[(while(v>0)(print(v);v=v-1);print(v))]
+---SymTable--- 
+{v=4}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1)]
+---SymTable--- 
+{v=4}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1)]
+---SymTable--- 
+{v=4}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1)]
+---SymTable--- 
+{v=4}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1), (print(v);v=v-1)]
+---SymTable--- 
+{v=4}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1), (print(v);v=v-1)]
+---SymTable--- 
+{v=4}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1), (print(v);v=v-1)]
+---SymTable--- 
+{v=4}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1), v=v-1, print(v)]
+---SymTable--- 
+{v=4}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1), v=v-1, print(v)]
+---SymTable--- 
+{v=4}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1), v=v-1, print(v)]
+---SymTable--- 
+{v=4}
+---OutList--- 
+[]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1), v=v-1]
+---SymTable--- 
+{v=4}
+---OutList--- 
+[4]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1), v=v-1]
+---SymTable--- 
+{v=4}
+---OutList--- 
+[4]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1), v=v-1]
+---SymTable--- 
+{v=4}
+---OutList--- 
+[4]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1)]
+---SymTable--- 
+{v=3}
+---OutList--- 
+[4]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1)]
+---SymTable--- 
+{v=3}
+---OutList--- 
+[4]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1)]
+---SymTable--- 
+{v=3}
+---OutList--- 
+[4]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1), (print(v);v=v-1)]
+---SymTable--- 
+{v=3}
+---OutList--- 
+[4]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1), (print(v);v=v-1)]
+---SymTable--- 
+{v=3}
+---OutList--- 
+[4]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1), (print(v);v=v-1)]
+---SymTable--- 
+{v=3}
+---OutList--- 
+[4]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1), v=v-1, print(v)]
+---SymTable--- 
+{v=3}
+---OutList--- 
+[4]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1), v=v-1, print(v)]
+---SymTable--- 
+{v=3}
+---OutList--- 
+[4]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1), v=v-1, print(v)]
+---SymTable--- 
+{v=3}
+---OutList--- 
+[4]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1), v=v-1]
+---SymTable--- 
+{v=3}
+---OutList--- 
+[4, 3]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1), v=v-1]
+---SymTable--- 
+{v=3}
+---OutList--- 
+[4, 3]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1), v=v-1]
+---SymTable--- 
+{v=3}
+---OutList--- 
+[4, 3]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1)]
+---SymTable--- 
+{v=2}
+---OutList--- 
+[4, 3]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1)]
+---SymTable--- 
+{v=2}
+---OutList--- 
+[4, 3]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1)]
+---SymTable--- 
+{v=2}
+---OutList--- 
+[4, 3]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1), (print(v);v=v-1)]
+---SymTable--- 
+{v=2}
+---OutList--- 
+[4, 3]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1), (print(v);v=v-1)]
+---SymTable--- 
+{v=2}
+---OutList--- 
+[4, 3]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1), (print(v);v=v-1)]
+---SymTable--- 
+{v=2}
+---OutList--- 
+[4, 3]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1), v=v-1, print(v)]
+---SymTable--- 
+{v=2}
+---OutList--- 
+[4, 3]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1), v=v-1, print(v)]
+---SymTable--- 
+{v=2}
+---OutList--- 
+[4, 3]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1), v=v-1, print(v)]
+---SymTable--- 
+{v=2}
+---OutList--- 
+[4, 3]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1), v=v-1]
+---SymTable--- 
+{v=2}
+---OutList--- 
+[4, 3, 2]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1), v=v-1]
+---SymTable--- 
+{v=2}
+---OutList--- 
+[4, 3, 2]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1), v=v-1]
+---SymTable--- 
+{v=2}
+---OutList--- 
+[4, 3, 2]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1)]
+---SymTable--- 
+{v=1}
+---OutList--- 
+[4, 3, 2]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1)]
+---SymTable--- 
+{v=1}
+---OutList--- 
+[4, 3, 2]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1)]
+---SymTable--- 
+{v=1}
+---OutList--- 
+[4, 3, 2]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1), (print(v);v=v-1)]
+---SymTable--- 
+{v=1}
+---OutList--- 
+[4, 3, 2]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1), (print(v);v=v-1)]
+---SymTable--- 
+{v=1}
+---OutList--- 
+[4, 3, 2]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1), (print(v);v=v-1)]
+---SymTable--- 
+{v=1}
+---OutList--- 
+[4, 3, 2]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1), v=v-1, print(v)]
+---SymTable--- 
+{v=1}
+---OutList--- 
+[4, 3, 2]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1), v=v-1, print(v)]
+---SymTable--- 
+{v=1}
+---OutList--- 
+[4, 3, 2]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1), v=v-1, print(v)]
+---SymTable--- 
+{v=1}
+---OutList--- 
+[4, 3, 2]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1), v=v-1]
+---SymTable--- 
+{v=1}
+---OutList--- 
+[4, 3, 2, 1]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1), v=v-1]
+---SymTable--- 
+{v=1}
+---OutList--- 
+[4, 3, 2, 1]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1), v=v-1]
+---SymTable--- 
+{v=1}
+---OutList--- 
+[4, 3, 2, 1]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1)]
+---SymTable--- 
+{v=0}
+---OutList--- 
+[4, 3, 2, 1]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1)]
+---SymTable--- 
+{v=0}
+---OutList--- 
+[4, 3, 2, 1]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v), while(v>0)(print(v);v=v-1)]
+---SymTable--- 
+{v=0}
+---OutList--- 
+[4, 3, 2, 1]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v)]
+---SymTable--- 
+{v=0}
+---OutList--- 
+[4, 3, 2, 1]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v)]
+---SymTable--- 
+{v=0}
+---OutList--- 
+[4, 3, 2, 1]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[print(v)]
+---SymTable--- 
+{v=0}
+---OutList--- 
+[4, 3, 2, 1]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[]
+---SymTable--- 
+{v=0}
+---OutList--- 
+[4, 3, 2, 1, 0]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+
+Program ID is 1
+---ExeStack--- 
+[]
+---SymTable--- 
+{v=0}
+---OutList--- 
+[4, 3, 2, 1, 0]
+---Heap---- 
+{}
+---FileTable--- 
+{}
+
+

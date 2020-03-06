@@ -1,0 +1,3 @@
+C:/UBB/SDA/BagOpenAdressing/cmake-build-debug/CMakeFiles/BagOpenAdressing.dir
+C:/UBB/SDA/BagOpenAdressing/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/UBB/SDA/BagOpenAdressing/cmake-build-debug/CMakeFiles/rebuild_cache.dir

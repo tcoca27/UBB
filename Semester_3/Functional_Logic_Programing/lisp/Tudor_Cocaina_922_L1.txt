@@ -1,0 +1,107 @@
+;gnu clisp 2.49
+;;;a) A linear list is given. Eliminate from the list all elements from N to N steps, N-given. 
+;;;b) Write a function to test if a linear list of integer numbers has a "valley" aspect (a list has a valley aspect if the items decrease to a certain point and then increase. Eg. 10 8 6 17 19 20). A list must have at least 3 elements to fullfill this condition. 
+;;;c) Build a function that returns the minimum numeric atom from a list, at any level. 
+;;;d) Write a function that deletes from a linear list of all occurrences of the maximum element. 
+
+;;;a. elimN(l1...l2,n,c)=
+;;;                 l1+elimN(l2...ln,n,c+1), n!=c
+;;;                 elimN(l2...ln,n,1), n=c
+(defun elimN(l n c)
+    (cond
+        ((null l) nil)
+        ((= n c)(elimN (cdr l) n 1))
+        ((cons(car l)(elimN (cdr l) n (+ c 1))))
+        )
+    )
+    
+(print (elimN '(1 2 3 4 5 6 7) 3 1))
+
+;;;b.valley(l1...ln,dec)=
+;;;                        true, n=1 and dec=0
+;;;                        valley(l2...ln,1), l1>l2    
+;;;                        valley(l2...ln,0),l1<l2 and dec=1
+;;;                        false, otherwise
+
+(defun valley(l dec)
+    (cond
+        ((= dec 0) T)
+        ((> (car l) (cadr l))(valley (cdr l) 1))
+        ((and (< (car l) (cadr l)) (= dec 1)) (valley (cdr l) 0))
+        (T nil)
+     )
+)
+;;;mainB(l1...ln)=
+;;;               false, n<3
+;;;               valley(l,2), otherwise
+
+(defun mainB(l)
+    (cond
+        ((< (list-length l) 3) nil)
+        ((valley l 2))
+        )
+    )
+
+(print (mainB '(10 8 6 17 19 20)))
+
+;;;c.minl(l1...ln, min)=
+;;;                     minl(l2...ln,l1),l1<min
+;;;                     minl(l2...ln,min),l1>min
+(defun minl(l min)
+    (cond
+    ((null l) min)
+    ((< (car l) min)(minl (cdr l) (car l)))
+    ((> (car l) min)(minl (cdr l) min))
+    )
+)
+
+;;;mini(l1...l2,min)=
+;;;                  mini(l2...ln,l1), if l1<min and l1 is a number
+;;;                  mini(l2...ln,mini(l1)), if l1 is a list and mini(l1)<min
+;;;                  minl(l2...ln,min), otherwise
+
+(defun mini(l min)
+    (cond
+        ((null l) min)
+        ((and (numberp (car l))(< (car l) min))(mini (cdr l) (car l)))
+        ((and (listp (car l))(<= (mini (car l) min) min))(mini (cdr l) (mini (car l) min)))
+        (T (mini (cdr l) min))
+        )
+    )
+
+
+;;;mainC(l1...ln)=minL(l1...ln,99999)
+
+(defun mainC(l)
+    (mini l 999)
+    )
+
+(print (mainC '(3 6 5 ((1 2) 6) 7 9)))
+
+;;;max(l1...ln,max)=
+;;;                 max(l2...ln,l1),l1>max
+;;;                 max(l2...ln,max),l1<max
+(defun maxi(l min)
+    (cond
+    ((null l) min)
+    ((>= (car l) min)(maxi (cdr l) (car l)))
+    ((< (car l) min)(maxi (cdr l) min))
+    )
+)
+
+;;;delelem(l1...ln,e)=
+;;;                 l1+delelem(l2...ln,e),l1!=e
+;;;                 delelem(l2...ln,e),l1=e
+(defun delE(l e)
+    (cond
+    ((null l) nil)
+    ((= (car l) e)(delE (cdr l) e))
+    ((cons (car l) (delE (cdr l) e)))
+    )
+)
+
+;;;mainD(l1...ln)=delE(l1...ln, maxi(l1...ln,0)
+(defun mainD(l)
+    (delE l (maxi l 0))
+)
+(print (mainD '(1 2 3 4 3 4 2 4 1)))

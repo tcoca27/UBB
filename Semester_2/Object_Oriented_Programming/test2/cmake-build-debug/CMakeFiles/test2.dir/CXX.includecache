@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/UBB/c+/Teste/test2/BMI.h
+MedicalAnalysis.h
+C:/UBB/c+/Teste/test2/MedicalAnalysis.h
+
+C:/UBB/c+/Teste/test2/BP.h
+MedicalAnalysis.h
+C:/UBB/c+/Teste/test2/MedicalAnalysis.h
+
+C:/UBB/c+/Teste/test2/MedicalAnalysis.h
+string
+-
+
+C:/UBB/c+/Teste/test2/Person.h
+string
+-
+vector
+-
+MedicalAnalysis.h
+C:/UBB/c+/Teste/test2/MedicalAnalysis.h
+
+C:/UBB/c+/Teste/test2/UI.cpp
+UI.h
+C:/UBB/c+/Teste/test2/UI.h
+BP.h
+C:/UBB/c+/Teste/test2/BP.h
+BMI.h
+C:/UBB/c+/Teste/test2/BMI.h
+iostream
+-
+cstring
+-
+
+C:/UBB/c+/Teste/test2/UI.h
+Person.h
+C:/UBB/c+/Teste/test2/Person.h
+

@@ -1,0 +1,70 @@
+;gnu clisp 2.49
+
+;;;6. Return the list of nodes of a tree of type (1) accessed inorder. 
+
+;;;get_left_child(l1...ln)=
+;;;			   [], if n=0
+;;;			   l3...ln, if l2>0
+
+
+(defun get_left_sub(tree)
+
+    (cond
+
+        ((null tree) nil)
+
+        ((> (cadr tree) 0) (cddr tree))
+
+        (t nil)
+
+        )
+
+)
+
+
+;get right child of a tree
+;;;right-aux(l1...ln,step)=
+;;;                     L, l1 not a number and step=0
+;;;                     right-aux(l2..ln,step+l1), l1 number
+;;;                     right-aux(l2..ln,step-1), otherwise
+
+(defun right-aux (L step)
+
+    (cond
+
+        ((and (not (numberp (car L))) (eq step 0)) L)
+
+        ((numberp (car L)) (right-aux (cdr L) (+ step (car L))))
+
+        (t (right-aux (cdr L) (- step 1)))
+
+    )
+
+)
+
+(defun right (L)
+    (cond
+        ((= (cadr l) 0) nil)
+        (t (right-aux (cddr L) 1))
+)
+)
+
+;;;inorder traversal(l1..ln)=
+;;;				tree, n=0
+;;;				inorder(get_left(tree)) U l1 U inorder(get_right(tree))
+
+;inorder traversal
+
+(defun inorder_traversal(tree)
+
+    (cond
+
+        ((null tree) tree)
+
+        (t  (append (inorder_traversal (get_left_sub tree)) (list (car tree)) (inorder_traversal (right tree))))
+
+        )
+
+    )
+(print (inorder_traversal '(A 2 B 0 C 2 D 0 E 0) ))
+(print (inorder_traversal '(A 2 B 2 C 0 D 0 E 2 F 0 H 0)))

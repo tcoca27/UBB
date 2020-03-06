@@ -1,0 +1,17 @@
+﻿  QtMsBuild: could not locate qt.targets, qt.props; project may not build correctly.
+  Moc'ing QtGuiApplication3.h...
+  Uic'ing QtGuiApplication3.ui...
+  Rcc'ing QtGuiApplication3.qrc...
+RCC : warning : No resources in 'C:\UBB\sem 2\c+\practic\QtGuiApplication3\QtGuiApplication3\QtGuiApplication3.qrc'.
+  
+  moc_QtGuiApplication3.cpp
+  main.cpp
+  Observer.cpp
+  QtGuiApplication3.cpp
+  Subject.cpp
+c:\ubb\sem 2\c+\practic\qtguiapplication3\qtguiapplication3\subject.h(2): warning C4067: unexpected tokens following preprocessor directive - expected a newline (compiling source file Subject.cpp)
+c:\ubb\sem 2\c+\practic\qtguiapplication3\qtguiapplication3\subject.h(2): warning C4067: unexpected tokens following preprocessor directive - expected a newline (compiling source file GeneratedFiles\Debug\moc_QtGuiApplication3.cpp)
+c:\ubb\sem 2\c+\practic\qtguiapplication3\qtguiapplication3\subject.h(2): warning C4067: unexpected tokens following preprocessor directive - expected a newline (compiling source file main.cpp)
+c:\ubb\sem 2\c+\practic\qtguiapplication3\qtguiapplication3\subject.h(2): warning C4067: unexpected tokens following preprocessor directive - expected a newline (compiling source file QtGuiApplication3.cpp)
+  qrc_QtGuiApplication3.cpp
+  QtGuiApplication3.vcxproj -> C:\UBB\sem 2\c+\practic\QtGuiApplication3\x64\Debug\QtGuiApplication3.exe
