@@ -1,0 +1,65 @@
+q=[root]
+        best=9999
+        bestState=None
+        currentlen=0
+        while len(q)>0:
+            currentState=q.pop(0)
+            if len(currentState.getValues()[-1].getValues())==self._problem.getSize():
+                return currentState
+            if len(currentState.getValues()[-1].getValues())>currentlen:
+                best=9999
+                currentlen+=1
+            if self._problem.heuristics(currentState)<=best:
+                bestState=currentState
+                best=self._problem.heuristics(currentState)
+                q=q+self._problem.expand(bestState)
+
+
+q=[root]
+        best=0
+        bestState=None
+        currentlen=0
+        while len(q)>0:
+            currentState=q.pop(0)
+            if len(currentState.getValues()[-1].getValues())==self._problem.getSize():
+                return currentState
+            if len(currentState.getValues()[-1].getValues())>currentlen:
+                best=0
+                currentlen+=1
+            if self._problem.heuristics(currentState)>=best:
+                bestState=currentState
+                best=self._problem.heuristics(currentState)
+                q=q+self._problem.expand(bestState)
+
+
+q = [root]
+        best = 0
+        bestState = None
+        currentlen = 0
+        while len(q) > 0:
+            currentState = q.pop(0)
+            if len(currentState.getValues()[-1].getValues()) == self._problem.getSize():
+                return currentState
+            if len(currentState.getValues()[-1].getValues()) > currentlen:
+                best = 0
+                currentlen += 1
+            if len(currentState.getValues()[-1].getValues())>=3:
+                if self._problem.heuristics(currentState) >= best:
+                    bestState = currentState
+                    best = self._problem.heuristics(currentState)
+                    q = q + self._problem.expand(bestState)
+            else:
+                q=q+self._problem.expand(currentState)
+
+1 0 0 0 
+0 0 1 0
+0 0 0 0
+0 0 0 0
+
+    def heuristics(self,state):
+        count=0
+        n=len(state.getValues()[-1].getValues())
+        #if n==1:return state.getValues()[-1].getValues()[0]
+        for i in range(n-1):
+            count+=abs(state.getValues()[-1].getValues()[i]-state.getValues()[-1].getValues()[i+1])
+        return count  

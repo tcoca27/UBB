@@ -1,0 +1,498 @@
+body{
+    line-height: 1.43;
+    margin: 0;
+    font-family: open sans,helvetica neue,Helvetica,Arial,sans-serif;
+    text-align: center;
+}
+
+#header{
+    padding: 10px;
+    background: #f4c150;
+    position: relative;
+}
+
+#headerBox{
+    /*margin-bottom: 0px;*/
+    font-size: 15px;
+    color: black;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#headerText{
+    text-align: center;
+    margin-right: 5px;
+}
+
+#headerText2{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#X{
+    position: absolute;
+    top:8px;
+    right:10px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#navigation{   /*delete*/
+    display: flex;
+    justify-content: center;
+    height: 65px;
+    padding: 0 20px;
+    position: relative;
+    color: #8a92a3;
+    font-size: 13px;
+    box-shadow: 1px 1px 5px #8a92a3;
+}
+
+#navigation-widgets{
+    /*width: 78%;*/
+    justify-content: space-between;
+    align-items: center;
+    display: inline-flex;
+    flex-direction: row;
+}
+
+#logoBox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-right: 30px;
+}
+
+#category{
+    display: flex;
+    flex-direction: row;
+    padding: 4px 10px 4px 15px;
+    flex:1;
+    align-items: center;
+}
+
+#cat{
+    padding: 3px;
+}
+
+#search{
+    flex-direction: row;
+    height: 44px;
+    justify-items: center;
+    display: inline-block;
+    margin-left: 40px;
+    background-color: #f2f3f5;
+}
+
+#search-input{
+    padding: 13px 400px 0 3px;
+    float: left;
+}
+
+#search-logo{
+    color: #ec5252;
+    display: table;
+    padding-right: 10px;
+}
+
+#bussiness{
+    display: inline;
+    padding-left: 40px;
+}
+
+#teach{
+    display: inline;
+    padding-left: 40px;
+}
+
+#split{
+    height: 60%;
+    border-left: 1px solid #dedfe0;
+    margin-left: 40px;
+}
+
+#cart{
+    margin-left: 30px;
+    height: 20%;
+    color: #686f7a;
+}
+
+#log-in{
+    margin-left: 40px;
+    padding: 11px 12px;
+    border: 1px solid #686f7a;
+    color: #686f7a;
+}
+
+#sign-up{
+    margin-left: 3px;
+    padding: 12px 12px;
+    background-color: #ec5252;
+    color: white;
+}
+
+#dev{
+    background-color: #f7f8fa;
+    /*min-height: 44px;*/
+    font-size: 13px;
+    color: #686f7a;
+    padding-right: 840px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#d{
+    display: inline;
+    font-weight: 900;
+}
+
+#l{
+    display: inline;
+    margin-left: 25px;
+}
+
+#w{
+    display: inline;
+    margin-left: 25px;
+}
+
+#black{
+    background: linear-gradient(#29303B,#29303B,#29303B);
+    padding-bottom: 60px;
+    text-align: center
+}
+
+#container{
+    display: inline-block;
+}
+
+#first-row{
+    color: white;
+    font-size: 15px;
+}
+
+#heartp{
+    float: right;
+    margin-left: 10px;
+}
+
+#heart{
+    padding-top: 10px;
+    float: right;
+    margin-left: 20px;
+}
+
+#giftp{
+    float: right;
+    margin-left: 10px;
+}
+
+#gift{
+    padding-top: 10px;
+    float: right;
+}
+
+#text-container{
+    padding: 0 0;
+    color: white;
+    float: left;
+    text-align: left;
+}
+
+#wdb{
+    font-size: 35px;
+    margin-bottom: 4px;
+}
+
+#line2{
+    font-size: 22px;
+    margin-top: 3px;
+    margin-bottom: 5px;
+}
+
+.checked{
+    color: orange;
+}
+
+#rating{
+    display: inline;
+}
+
+#enrolled{
+    display: inline;
+    margin-left: 20px;
+}
+
+#updated{
+    display: inline;
+    margin-left: 20px;
+}
+
+#comment{
+    display: inline;
+    margin-left: 20px;
+}
+
+#cc{
+    display: inline;
+    margin-left: 20px;
+}
+
+#learn-container{
+    background-color: #f9f9f9;
+    border: 1px solid #dedfe0;
+    padding: 10px 15px;
+    width: 40%;
+    margin-top: 40px;
+    float: left;
+    margin-left: 20%;
+    height: 320px;
+}
+
+#table{
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+    color: #686f7a;
+    text-align: left;
+    justify-content: left;
+    padding: 0 20px;
+    margin: 10px 0;
+}
+
+li:before {
+    content: '🗸';
+    margin-left: -20px;
+    margin-right: 10px;
+}
+
+li:not(:last-child) {
+    margin-bottom: 20px;
+    max-width: 80%;
+}
+
+li:last-child{
+    max-width: 80%;
+    background: linear-gradient(to bottom, #686f7a 0%, #ffffff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#learntxt{
+    flex-direction: row;
+    font-size: 25px;
+    text-align: left;
+    margin-top: 0;
+}
+
+#see{
+    color:rgb(0, 119, 145);
+    font-size: 15px;
+    text-align: left;
+    margin-top: 0;
+}
+
+#Course-contents{
+    width: 40%;
+    margin-left: 20%;
+    display: flex;
+    padding-top: 10px;
+}
+
+#course{
+    display: inline;
+    margin-top: 30px;
+    text-align: left;
+    font-size: 25px;
+    margin-bottom: 8px;
+}
+
+#expand{
+    display: inline;
+    margin-left: 37%;
+    font-size: 15px;
+    color:rgb(0, 119, 145);
+    margin-top: 30px;
+}
+
+#lectures{
+    display: inline;
+    margin-left: 20px;
+    font-size: 15px;
+    margin-top: 30px;
+}
+
+#time{
+    display: inline;
+    margin-left: 40px;
+    font-size: 15px;
+    margin-top: 30px;
+}
+
+#intro{
+    width: 38.8%;
+    margin-left: 20%;
+    background: #f9f9f9;
+    padding: 10px 30px 10px 22px;
+    margin-top: 0;
+    text-align: left;
+    border: solid 1px #e8e9eb;
+}
+
+#introtxt{
+    color:rgb(80, 87, 99);
+    display: inline;
+    margin-left: 10px;
+}
+
+#time21{
+    display: inline;
+    margin-left: 450px;
+}
+
+#collumn-container{
+    color: white;
+    position: absolute;
+    top:240px;
+    left:64%;
+    border: 1px solid #dedfe0;
+    border-radius: 5px;
+    padding: 4px;
+    background-color: white;
+    display: grid;
+    align-items: center;
+    /*justify-content: center;*/
+    /*text-align: center;*/
+}
+
+#first-row{
+    margin-right: 15%;
+}
+
+#big-container{
+    width: 80%;
+    margin-left: 250px;
+}
+
+#video-box{
+    display: flex;
+    margin-right: 0;
+}
+
+#video{
+    width: 330px;
+}
+
+#price {
+    color: rgb(80, 87, 99);
+    margin-top: 20px;
+    font-size: 36px;
+    font-weight: 700;
+    align-self: end;
+    justify-self: right;
+    margin-right: 35px;
+}
+
+#add-cart{
+    display: inline-block;
+    width: 73%;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    background-color: #ec5252;
+    border: 1px solid #ec5252;
+    border-radius: 3px;
+    color: white;
+    padding: 15px;
+    margin-top: 10px;
+    align-self: center;
+    justify-self: center;
+}
+
+#buy-now{
+    display: inline-block;
+    width: 73%;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    background-color: white;
+    border: 1px solid rgb(104, 111, 122);
+    border-radius: 3px;
+    color: rgb(104, 111, 122);
+    padding: 15px;
+    margin-top: 10px;
+    align-self: center;
+    justify-self: center;
+}
+
+#money{
+    font-size: 13px;
+    text-align: center;
+    color: rgb(104, 111, 122);
+    margin-top: 10px;
+    align-self: center;
+    justify-self: center;
+}
+
+#include{
+    width: 80%;
+    font-size: 13px;
+    color: rgb(104, 111, 122);
+    text-align: left;
+    align-self: center;
+    justify-self: center;
+    margin-top: 10px;
+    display: grid;
+}
+
+#includes{
+    font-size: 15px;
+}
+
+#hours{
+    margin-top: 3px;
+}
+
+#downloadable{
+    margin-top: 3px;
+}
+
+#certificate{
+    margin-top: 3px;
+}
+
+#mobile{
+    margin-top: 3px;
+}
+
+#completion{
+    margin-top: 3px;
+}
+
+#coupon{
+    font-size: 16px;
+    text-align: center;
+    color: rgb(0, 119, 145);
+    margin-top: 15px;
+    align-self: center;
+    justify-self: center;
+    margin-bottom: 20px;
+}
+
+#splith{
+    width: 80%;
+    border-bottom: 1px solid #dedfe0;
+    margin-left: 40px;
+}
+
+#share{
+    font-size: 20px;
+    text-align: center;
+    color: rgb(0, 119, 145);
+    margin-top: 15px;
+    align-self: center;
+    justify-self: center;
+    margin-bottom: 20px;
+}

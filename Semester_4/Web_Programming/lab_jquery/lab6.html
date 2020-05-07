@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="jquery-3.5.0.min.js"></script>
+    <script>
+        $(function () {
+            $("button#main").click(function(){
+                $("div#window").show("fast");
+            });
+            $("button#x").click(function () {
+                $("div#window").hide("fast");
+            });
+        })
+    </script>
+    <style>
+        #window {
+            display: none;
+            border: 2px solid;
+            width: 300px;
+            resize: both;
+            overflow: auto;
+        }
+
+        #footer{
+            background: grey;
+            text-align: right;
+        }
+
+        #x {
+            background-color: red;
+        }
+
+    </style>
+    <meta charset="UTF-8">
+    <title>Lab 6</title>
+</head>
+<body>
+    <button id="main">Click me</button>
+    <div id="window">
+        <div id="footer">
+            <button id="x">X</button>
+        </div>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </div>
+</body>
+</html>

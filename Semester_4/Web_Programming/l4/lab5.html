@@ -1,0 +1,78 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <title>Menu</title>
+</head>
+<body>
+
+<div id="menu">
+    <ul onmouseover="show(submenu1)" onmouseout="hide(submenu1)">
+        <li><h2>SubMenu 1</h2>
+            <ul id="submenu1">
+                <li><a href="#">Content 1.1</a></li>
+                <li><a href="#">Content 1.2</a></li>
+                <li><a href="#">Content 1.3</a></li>
+            </ul>
+        </li>
+    </ul>
+
+    <ul onmouseover="show(submenu2)" onmouseout="hide(submenu2)">
+        <li><h2>SubMenu 2</h2>
+            <ul id="submenu2">
+                <li><a href="#">Content 2.1</a></li>
+                <li><a href="#">Content 2.2</a></li>
+                <li><a href="#">Content 2.3</a></li>
+                <li><a href="#">Content 2.4</a></li>
+                <li><a href="#">Content 2.5</a></li>
+            </ul>
+        </li>
+    </ul>
+
+    <ul onmouseover="show(submenu3)" onmouseout="hide(submenu3)">
+        <li><h2>SubMenu 3</h2>
+            <ul id="submenu3">
+                <li><a href="#">Content 3.1</a></li>
+                <li><a href="#">Content 3.2</a></li>
+                <li><a href="#">Content 3.3</a></li>
+                <li><a href="#">Content 3.4</a></li>
+            </ul>
+        </li>
+    </ul>
+
+    <ul onmouseover="show(submenu4)" onmouseout="hide(submenu4)">
+        <li><h2>SubMenu 4</h2>
+            <ul id="submenu4">
+                <li><a href="#">Content 4.1</a></li>
+                <li><a href="#">Content 4.2</a></li>
+                <li><a href="#">Content 4.3</a></li>
+            </ul>
+        </li>
+    </ul>
+
+    <ul onmouseover="show(submenu5)" onmouseout="hide(submenu5)">
+        <li><h2>SubMenu 5</h2>
+            <ul id="submenu5">
+                <li><a href="#">Content 5.1</a></li>
+                <li><a href="#">Content 5.2</a></li>
+                <li><a href="#">Content 5.3</a></li>
+            </ul>
+        </li>
+    </ul>
+
+</div>
+
+</body>
+</html>
+
+<script>
+    function show(x) {
+        x.style.display="block";
+    }
+
+    function hide(x) {
+        x.style.display="none";
+    }
+</script>
