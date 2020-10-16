@@ -1,14 +1,16 @@
 package SymbolTbl;
 
-import jdk.internal.joptsimple.util.KeyValuePair;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+
 public class HashTbl {
     public Map<Integer, List<String>> table;
+
+    public final int MAX_ASCII_CODE = 127;
 
     public HashTbl() {
         table = new HashMap<>();
@@ -19,7 +21,7 @@ public class HashTbl {
         for (char c : value.toCharArray()) {
             sum += c;
         }
-        return sum % 256; //todo change to constant
+        return sum % MAX_ASCII_CODE;
     }
 
     public ArrayList<String> search(String value) {
@@ -46,6 +48,7 @@ public class HashTbl {
             }
         }
         else {
+            colidedList.add(value);
             table.put(hashCode(value), colidedList);
         }
     }
