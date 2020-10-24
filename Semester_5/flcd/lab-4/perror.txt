@@ -1,0 +1,19 @@
+intreg Main() {
+    intreg 1numprim;
+    citeste(std::in, 1numprim);
+    adevar result;
+    daca (1numprim < 2) {
+        result corect;
+        }
+    intreg div= 3;
+    in timp ce (div <= 1numprim/2) {
+        daca(1numprim % div == 0) result= gresit;
+        div++;
+        }
+    daca (result == corect) {
+        printeaza ('p);
+        }
+    daca nu {
+        printeaza ('n');
+        }
+}

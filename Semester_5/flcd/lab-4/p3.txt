@@ -1,0 +1,14 @@
+intreg Main () {
+    intreg number= intreg;
+    intreg n;
+    intreg max= -1000;
+    citeste(std::in, n);
+    intreg i=0;
+    in timp ce (i < n) {
+        citeste(std::in, number);
+        if(number > max) {
+            max = number;
+            }
+        i++;
+    }
+}
