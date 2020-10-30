@@ -1,0 +1,14 @@
+intreg Main() {
+    intreg number1, number2, number3;
+    citeste(std::in, number1);
+    citeste(std::in, number2);
+    citeste(std::in, number3);
+    intreg max=number1;
+    daca (number2 > max) {
+        max= number2;
+        }
+    daca (number3 > max) {
+        max= number3;
+        }
+    raporteaza max;
+    }

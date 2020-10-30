@@ -1,0 +1,18 @@
+intreg Main() {
+    real[] solutii= [];
+    intreg a, b, c;
+    citeste(std::in, a);
+    citeste(std::in, b);
+    citeste(std::in, c);
+    real delta= b*b - 4*a*c;
+    daca (delta < 0) returneaza solutii;
+    daca nu (delta == 0) {
+        solutii[0] = -b/2*a;
+        returneaza solutii;
+        }
+    daca nu {
+        solutii[0] = (-b + radical(delta))/2*a;
+        solutii[1] = (-b - radical(delta))/2*a;
+        returneaza solutii;
+        }
+    }
