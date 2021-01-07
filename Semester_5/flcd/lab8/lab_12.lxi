@@ -1,0 +1,101 @@
+%{ 	 
+#include <stdio.h>
+int lines = 0;
+int correct = 1;
+int badLine = 0;
+%} 
+%option noyywrap
+%option caseless
+
+DIGIT		[0-9]
+NZDIGIT		[1-9]
+INTREG		[+|-]?{NZDIGIT}{DIGIT}*|0
+LETTER		[A-Za-z]
+CARACTER	[']{CARAC}[']
+CARAC		{LETTER}|{DIGIT}
+ADEVAR		ADEVARAT|FALS
+BEGGININGSYM {LETTER}|_
+FOLLOWINGSYM {LETTER}|_|{DIGIT}
+ID			{BEGGININGSYM}{FOLLOWINGSYM}*
+CT			{INTREG}|{CARACTER}|{ADEVAR}
+
+%%
+
+"MAIN" {printf("Reserved word: %s\n", yytext);}
+"INTREG" {printf("Reserved word: %s\n", yytext);}
+"ADEVAR" {printf("Reserved word: %s\n", yytext);}
+"CARACTER" {printf("Reserved word: %s\n", yytext);}
+"CUVANT" {printf("Reserved word: %s\n", yytext);}
+"CITESTE" {printf("Reserved word: %s\n", yytext);}
+"PRINTEAZA" {printf("Reserved word: %s\n", yytext);}
+"ADEVARAT" {printf("Reserved word: %s\n", yytext);}
+"FALS" {printf("Reserved word: %s\n", yytext);}
+"DACA" {printf("Reserved word: %s\n", yytext);}
+"DACA NU" {printf("Reserved word: %s\n", yytext);}
+"EVENTUAL" {printf("Reserved word: %s\n", yytext);}
+"RAPORTEAZA" {printf("Reserved word: %s\n", yytext);}
+"IN TIMP CE" {printf("Reserved word: %s\n", yytext);}
+"NU" {printf("Reserved word: %s\n", yytext);}
+
+":"	{printf( "Separator: %s\n", yytext );}
+";"	{printf( "Separator: %s\n", yytext );}
+","	{printf( "Separator: %s\n", yytext );}
+"!"	{printf( "Separator: %s\n", yytext );}
+"+"	{printf( "Operator: %s\n", yytext );}
+"-"	{printf( "Operator: %s\n", yytext );}
+"*"	{printf( "Operator: %s\n", yytext );}
+"/"	{printf( "Operator: %s\n", yytext );}
+"("	{printf( "Separator: %s\n", yytext );}
+")"	{printf( "Separator: %s\n", yytext );}
+"["	{printf( "Separator: %s\n", yytext );}
+"]"	{printf( "Separator: %s\n", yytext );}
+"{"	{printf( "Separator: %s\n", yytext );}
+"}"	{printf( "Separator: %s\n", yytext );}
+"<"	{printf( "Operator: %s\n", yytext );}
+">"	{printf( "Operator: %s\n", yytext );}
+"<="	{printf( "Operator: %s\n", yytext );}
+">="	{printf( "Operator: %s\n", yytext );}
+"="	{printf( "Operator: %s\n", yytext );}
+"=="	{printf( "Separator: %s\n", yytext );}
+
+[0-9][a-zA-Z_]	{correct = 0; badLine = lines; printf("Illegal identifier at line %d\n", lines);}
+[+-]?0[0-9]*	{correct = 0; badLine = lines; printf("Illegal constant at line %d\n", lines);}
+\'[a-zA-Z0-9]	{correct = 0; badLine = lines; printf("Illegal constant at line %d\n", lines);}
+
+{ID} {printf("Identifier: %s\n", yytext);}
+{CT} {printf("Constant: %s\n", yytext);}
+
+
+
+[ \t]+  	{}
+
+[\n]+		{++lines;}
+
+. {correct = 0; badLine = lines; printf("Incorrect at line: %s\n", yytext);}
+
+%%
+void main(argc, argv)
+int argc;
+char** argv;
+{           
+if (argc > 1)
+{
+    FILE *file;
+    file = fopen(argv[1], "r");
+    if (!file)
+    {
+        fprintf(stderr, "Could not open %s\n", argv[1]);
+        exit(1);
+    }
+    yyin = file;
+}
+
+yylex();
+if(correct == 1)
+    printf("Correct program!");
+else
+    printf("Incorrect program at line %d!", badLine);
+}
+
+
+
