@@ -1,0 +1,81 @@
+%{ 	 
+#include <stdio.h>
+#include "yacc.tab.h"
+int lines = 0;
+int correct = 1;
+int badLine = 0;
+%} 
+%option noyywrap
+%option caseless
+
+DIGIT		[0-9]
+NZDIGIT		[1-9]
+INTREG		[+|-]?{NZDIGIT}{DIGIT}*|0
+LETTER		[A-Za-z]
+CARACTER	[']{CARAC}[']
+CARAC		{LETTER}|{DIGIT}
+ADEVAR		ADEVARAT|FALS
+BEGGININGSYM {LETTER}|_
+FOLLOWINGSYM {LETTER}|_|{DIGIT}
+ID			{BEGGININGSYM}{FOLLOWINGSYM}*
+CT			{INTREG}|{CARACTER}|{ADEVAR}
+
+%%
+
+"MAIN" {printf("Reserved word: %s\n", yytext); return MAIN;}
+"INTREG" {printf("Reserved word: %s\n", yytext); return INTREG;}
+"ADEVAR" {printf("Reserved word: %s\n", yytext); return ADEVAR;}
+"CARACTER" {printf("Reserved word: %s\n", yytext); return CARACTER;}
+"CITESTE" {printf("Reserved word: %s\n", yytext); return CITESTE;}
+"PRINTEAZA" {printf("Reserved word: %s\n", yytext); return PRINTEAZA;}
+"ADEVARAT" {printf("Reserved word: %s\n", yytext); return ADEVARAT;}
+"FALS" {printf("Reserved word: %s\n", yytext); return FALS;}
+"DACA" {printf("Reserved word: %s\n", yytext); return DACA;}
+"DACA NU" {printf("Reserved word: %s\n", yytext); return DACA_NU;}
+"EVENTUAL" {printf("Reserved word: %s\n", yytext); return EVENTUAL;}
+"RAPORTEAZA" {printf("Reserved word: %s\n", yytext); return RAPORTEAZA;}
+"IN TIMP CE" {printf("Reserved word: %s\n", yytext); return IN_TIMP_CE;}
+"NU" {printf("Reserved word: %s\n", yytext); return NU;}
+"std::in" {printf("Reserved word: %s\n", yytext); return STD_IN;}
+"std::out" {printf("Reserved word: %s\n", yytext); return STD_OUT;}
+
+";"	{printf( "Separator: %s\n", yytext ); return SEMI_COLON;}
+","	{printf( "Separator: %s\n", yytext ); return COMMA;}
+"!=" {printf( "Separator: %s\n", yytext ); return RELATION;}
+"+"	{printf( "Operator: %s\n", yytext ); return PLUS;}
+"-"	{printf( "Operator: %s\n", yytext ); return MINUS;}
+"*"	{printf( "Operator: %s\n", yytext ); return MUL;}
+"**" {printf( "Operator: %s\n", yytext ); return POWER;}
+"/"	{printf( "Operator: %s\n", yytext ); return DIV;}
+"("	{printf( "Separator: %s\n", yytext ); return OPEN_ROUND_BRACKET;}
+")"	{printf( "Separator: %s\n", yytext ); return CLOSED_ROUND_BRACKET;}
+"["	{printf( "Separator: %s\n", yytext ); return OPEN_SQUARE_BRACKET;}
+"]"	{printf( "Separator: %s\n", yytext ); return CLOSED_SQUARE_BRACKET;}
+"{"	{printf( "Separator: %s\n", yytext ); return OPEN_CURLY_BRACKET;}
+"}"	{printf( "Separator: %s\n", yytext ); return CLOSED_CURLY_BRACKET;}
+"<"	{printf( "Operator: %s\n", yytext ); return RELATION;}
+">"	{printf( "Operator: %s\n", yytext ); return RELATION;}
+"<="	{printf( "Operator: %s\n", yytext ); return RELATION;}
+">="	{printf( "Operator: %s\n", yytext ); return RELATION;}
+"="	{printf( "Operator: %s\n", yytext ); return EQ;}
+"=="	{printf( "Separator: %s\n", yytext ); return RELATION;}
+
+[0-9][a-zA-Z_]	{correct = 0; badLine = lines; printf("Illegal identifier at line %d\n", lines);}
+[+-]?0[0-9]*	{correct = 0; badLine = lines; printf("Illegal constant at line %d\n", lines);}
+\'[a-zA-Z0-9]	{correct = 0; badLine = lines; printf("Illegal constant at line %d\n", lines);}
+
+{ID} {printf("Identifier: %s\n", yytext);}
+{CT} {printf("Constant: %s\n", yytext);}
+
+
+
+[ \t]+  	{}
+
+[\n]+		{++lines;}
+
+. {correct = 0; badLine = lines; printf("Incorrect at line: %s\n", yytext);}
+
+%%
+
+
+
